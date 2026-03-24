@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+*.egg-info/
+
+# Modelos y logs pesados
+agente/logs/
+agente/checkpoints/*.zip
+experimentos/resultados/*.csv
+
+# Webots
+simulacion/worlds/.wbproj
+
+# OS
+.DS_Store
+Thumbs.db
