@@ -1,0 +1,61 @@
+{
+  "map": {
+    "width": 23,
+    "height": 22,
+    "resolution": 0.25,
+    "origin": [-13.0, -10.0]
+  },
+
+  "zones": {
+    "waiting": { "x": -6.6, "y": -8.5 },
+    "dropoff":  { "x": 0.0, "y": 10.5 }
+  },
+
+"shelves": [
+    { "id": "SHELF_1_1", "goal_id": "goal_01", "x": -1.75, "y": -8.3 },
+    { "id": "SHELF_1_2", "goal_id": "goal_02", "x":  0.25, "y": -8.3 },
+    { "id": "SHELF_1_3", "goal_id": "goal_03", "x":  2.0,  "y": -8.3 },
+    { "id": "SHELF_1_4", "goal_id": "goal_04", "x":  4.0,  "y": -8.3 },
+
+    { "id": "SHELF_2_1", "goal_id": "goal_05", "x":  -6.85,  "y": -4.25 },
+    { "id": "SHELF_2_2", "goal_id": "goal_06", "x":  -5.0,  "y": -4.25 },
+    { "id": "SHELF_2_3", "goal_id": "goal_07", "x":  -3.2,  "y": -4.25 },
+    { "id": "SHELF_2_4", "goal_id": "goal_08", "x":  -6.85,  "y": -1.25 },
+    { "id": "SHELF_2_5", "goal_id": "goal_09", "x":  -5.0,  "y": -1.25 },
+    { "id": "SHELF_2_6", "goal_id": "goal_10", "x":  -3.2,  "y": -1.25 },
+
+    { "id": "SHELF_3_1", "goal_id": "goal_11", "x":  8.85,  "y": -4.25 },
+    { "id": "SHELF_3_2", "goal_id": "goal_12", "x":  7.0,  "y": -4.25 },
+    { "id": "SHELF_3_3", "goal_id": "goal_13", "x":  5.2,  "y": -4.25 },
+    { "id": "SHELF_3_4", "goal_id": "goal_14", "x":  8.85,  "y": -1.25 },
+    { "id": "SHELF_3_5", "goal_id": "goal_15", "x":  7.0,  "y": -1.25 },
+    { "id": "SHELF_3_6", "goal_id": "goal_16", "x":  5.2,  "y": -1.25 },
+
+    { "id": "SHELF_4_1", "goal_id": "goal_17", "x":  -6.85,  "y": 1.75 },
+    { "id": "SHELF_4_2", "goal_id": "goal_18", "x":  -5.0,  "y": 1.75 },
+    { "id": "SHELF_4_3", "goal_id": "goal_19", "x":  -3.2,  "y": 1.75 },
+    { "id": "SHELF_4_4", "goal_id": "goal_20", "x":  -6.85,  "y": 4.95 },
+    { "id": "SHELF_4_5", "goal_id": "goal_21", "x":  -5.0,  "y": 4.95 },
+    { "id": "SHELF_4_6", "goal_id": "goal_22", "x":  -3.2,  "y": 4.95 },
+
+    { "id": "SHELF_5_1", "goal_id": "goal_23", "x":  8.85,  "y": 1.75 },
+    { "id": "SHELF_5_2", "goal_id": "goal_24", "x":  7.0,  "y": 1.75 },
+    { "id": "SHELF_5_3", "goal_id": "goal_25", "x":  5.2,  "y": 1.75 },
+    { "id": "SHELF_5_4", "goal_id": "goal_26", "x":  8.85,  "y": 4.95 },
+    { "id": "SHELF_5_5", "goal_id": "goal_27", "x":  7.0,  "y": 4.95 },
+    { "id": "SHELF_5_6", "goal_id": "goal_28", "x":  5.2,  "y": 4.95 }
+    
+  ],
+
+  "return_corridor": {
+    "waypoints": [
+      { "id": "WP1", "x": -3.0, "y": 10.5 },
+      { "id": "WP2", "x": -8.0, "y": 10.5 },
+      { "id": "WP3", "x": -10.5, "y": 8.0 },
+      { "id": "WP4", "x": -10.5, "y": 3.0 },
+      { "id": "WP5", "x": -10.5, "y": -2.0 },
+      { "id": "WP6", "x": -10.5, "y": -7.0 },
+      { "id": "WP7", "x": -6.6, "y": -8.5 }
+    ]
+  }
+}
