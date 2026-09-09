@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --ink: #15171A;
+  --steel: #52585E;
+  --steel-pale: #A7ACB1;
+  --concrete: #F1EFEA;
+  --concrete-panel: #E6E3DC;
+  --gunmetal: #1B1E21;
+  --gunmetal-panel: #26292C;
+  --safety-yellow: #F7C600;
+  --safety-yellow-d: #C79A00;
+  --safety-orange: #C24C16;
+  --hazard-red: #C22B1E;
+  --safety-green: #1F7A4D;
+  --white: #FFFFFF;
+  --border: #C9C4B8;
+  --border-dark: #3A3D40;
+
+  --surface-page: var(--concrete);
+  --surface-panel: var(--concrete-panel);
+  --surface-card: var(--white);
+  --text-primary: var(--ink);
+  --text-secondary: var(--steel);
+  --action-primary: var(--safety-yellow);
+  --action-primary-hover: var(--safety-yellow-d);
+  --status-in-stock: var(--safety-green);
+  --status-low-stock: var(--safety-orange);
+  --status-out-of-stock: var(--hazard-red);
+
+  --font-display: 'Oswald', 'Arial Narrow', sans-serif;
+  --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+  --text-display-hero: 700 clamp(40px, 7vw, 76px)/0.98 var(--font-display);
+  --text-display-section: 600 32px/1.15 var(--font-display);
+  --text-display-card: 600 28px/1.2 var(--font-display);
+  --text-display-product: 600 19px/1.2 var(--font-display);
+  --text-body: 400 16px/1.55 var(--font-body);
+  --text-body-lg: 400 18px/1.5 var(--font-body);
+  --text-body-sm: 400 13.5px/1.5 var(--font-body);
+  --text-mono-caption: 600 11px/1.4 var(--font-mono);
+
+  --radius: 2px;
+  --shadow-punch: inset 0 1px 3px rgba(0, 0, 0, 0.35);
+
+  --container: min(1680px, 96vw);
+  --gutter: clamp(20px, 3vw, 48px);
+
+  color-scheme: light;
+}

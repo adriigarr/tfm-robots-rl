@@ -1,0 +1,2 @@
+episodio,goal_id,resultado,pasos_total,reward_total,llego_estanteria,llego_descarga
+1,goal_01,col_retorno,1272,130.35,1,1

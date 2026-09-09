@@ -1,0 +1,170 @@
+{
+  "goal_01": {
+    "mean_rad": -3.0861,
+    "std_rad": 0.0101,
+    "mean_deg": -176.8,
+    "n_samples": 100
+  },
+  "goal_02": {
+    "mean_rad": -3.1258,
+    "std_rad": 0.0273,
+    "mean_deg": -179.1,
+    "n_samples": 100
+  },
+  "goal_03": {
+    "mean_rad": 3.0562,
+    "std_rad": 0.0238,
+    "mean_deg": 175.1,
+    "n_samples": 100
+  },
+  "goal_04": {
+    "mean_rad": 3.0816,
+    "std_rad": 0.0023,
+    "mean_deg": 176.6,
+    "n_samples": 100
+  },
+  "goal_05": {
+    "mean_rad": -1.5118,
+    "std_rad": 0.0023,
+    "mean_deg": -86.6,
+    "n_samples": 100
+  },
+  "goal_06": {
+    "mean_rad": -2.1871,
+    "std_rad": 0.0009,
+    "mean_deg": -125.3,
+    "n_samples": 100
+  },
+  "goal_07": {
+    "mean_rad": -1.962,
+    "std_rad": 0.0077,
+    "mean_deg": -112.4,
+    "n_samples": 100
+  },
+  "goal_08": {
+    "mean_rad": 0.0001,
+    "std_rad": 0.0029,
+    "mean_deg": 0.0,
+    "n_samples": 100
+  },
+  "goal_09": {
+    "mean_rad": -0.0045,
+    "std_rad": 0.0027,
+    "mean_deg": -0.3,
+    "n_samples": 100
+  },
+  "goal_10": {
+    "mean_rad": -0.0126,
+    "std_rad": 0.007,
+    "mean_deg": -0.7,
+    "n_samples": 100
+  },
+  "goal_11": {
+    "mean_rad": -2.8529,
+    "std_rad": 0.0085,
+    "mean_deg": -163.5,
+    "n_samples": 100
+  },
+  "goal_12": {
+    "mean_rad": -2.839,
+    "std_rad": 0.0325,
+    "mean_deg": -162.7,
+    "n_samples": 100
+  },
+  "goal_13": {
+    "mean_rad": -2.8561,
+    "std_rad": 0.0364,
+    "mean_deg": -163.6,
+    "n_samples": 100
+  },
+  "goal_14": {
+    "mean_rad": 3.0612,
+    "std_rad": 0.0141,
+    "mean_deg": 175.4,
+    "n_samples": 100
+  },
+  "goal_15": {
+    "mean_rad": 2.8647,
+    "std_rad": 0.0386,
+    "mean_deg": 164.1,
+    "n_samples": 100
+  },
+  "goal_16": {
+    "mean_rad": -2.9563,
+    "std_rad": 0.004,
+    "mean_deg": -169.4,
+    "n_samples": 100
+  },
+  "goal_17": {
+    "mean_rad": -0.7524,
+    "std_rad": 0.0072,
+    "mean_deg": -43.1,
+    "n_samples": 100
+  },
+  "goal_18": {
+    "mean_rad": -0.4246,
+    "std_rad": 0.0105,
+    "mean_deg": -24.3,
+    "n_samples": 100
+  },
+  "goal_19": {
+    "mean_rad": -0.4506,
+    "std_rad": 0.0069,
+    "mean_deg": -25.8,
+    "n_samples": 100
+  },
+  "goal_20": {
+    "mean_rad": -0.006,
+    "std_rad": 0.0017,
+    "mean_deg": -0.3,
+    "n_samples": 100
+  },
+  "goal_21": {
+    "mean_rad": -0.0091,
+    "std_rad": 0.0021,
+    "mean_deg": -0.5,
+    "n_samples": 100
+  },
+  "goal_22": {
+    "mean_rad": -0.0297,
+    "std_rad": 0.0013,
+    "mean_deg": -1.7,
+    "n_samples": 100
+  },
+  "goal_23": {
+    "mean_rad": -2.6716,
+    "std_rad": 0.0023,
+    "mean_deg": -153.1,
+    "n_samples": 100
+  },
+  "goal_24": {
+    "mean_rad": -2.6812,
+    "std_rad": 0.0023,
+    "mean_deg": -153.6,
+    "n_samples": 100
+  },
+  "goal_25": {
+    "mean_rad": -2.7248,
+    "std_rad": 0.0109,
+    "mean_deg": -156.1,
+    "n_samples": 100
+  },
+  "goal_26": {
+    "mean_rad": 3.1192,
+    "std_rad": 0.0162,
+    "mean_deg": 178.7,
+    "n_samples": 100
+  },
+  "goal_27": {
+    "mean_rad": -3.0897,
+    "std_rad": 0.0088,
+    "mean_deg": -177.0,
+    "n_samples": 100
+  },
+  "goal_28": {
+    "mean_rad": -3.0035,
+    "std_rad": 0.0213,
+    "mean_deg": -172.1,
+    "n_samples": 100
+  }
+}

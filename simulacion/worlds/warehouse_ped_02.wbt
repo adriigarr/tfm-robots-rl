@@ -1,0 +1,6201 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/mir/mir100/protos/Mir100.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/humans/pedestrian/protos/Pedestrian.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0 0 1 0
+  position 0 0 60
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  translation 0 0 0
+  size 35.0 38.0
+  appearance PBRAppearance {
+    baseColor 0.8 0.8 0.8
+    roughness 1
+  }
+}
+
+DEF WALL_L_01 Solid {
+  translation -17.1 -16.15 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_02 Solid {
+  translation -17.1 -14.25 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_03 Solid {
+  translation -17.1 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_04 Solid {
+  translation -17.1 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_05 Solid {
+  translation -17.1 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_06 Solid {
+  translation -17.1 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_07 Solid {
+  translation -17.1 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_08 Solid {
+  translation -17.1 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_09 Solid {
+  translation -17.1 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_10 Solid {
+  translation -17.1 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_11 Solid {
+  translation -17.1 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_12 Solid {
+  translation -17.1 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_13 Solid {
+  translation -17.1 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_14 Solid {
+  translation -17.1 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_15 Solid {
+  translation -17.1 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_15"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_16 Solid {
+  translation -17.1 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_16"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_17 Solid {
+  translation -17.1 14.25 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_17"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_L_18 Solid {
+  translation -17.1 16.15 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_L_18"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_01 Solid {
+  translation 17.1 -16.15 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_02 Solid {
+  translation 17.1 -14.25 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_03 Solid {
+  translation 17.1 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_04 Solid {
+  translation 17.1 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_05 Solid {
+  translation 17.1 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_06 Solid {
+  translation 17.1 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_07 Solid {
+  translation 17.1 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_08 Solid {
+  translation 17.1 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_09 Solid {
+  translation 17.1 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_10 Solid {
+  translation 17.1 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_11 Solid {
+  translation 17.1 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_12 Solid {
+  translation 17.1 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_13 Solid {
+  translation 17.1 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_14 Solid {
+  translation 17.1 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_15 Solid {
+  translation 17.1 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_15"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_16 Solid {
+  translation 17.1 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_16"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_17 Solid {
+  translation 17.1 14.25 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_17"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_R_18 Solid {
+  translation 17.1 16.15 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_R_18"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_01 Solid {
+  translation -10.3 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_02 Solid {
+  translation -10.3 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_03 Solid {
+  translation -10.3 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_04 Solid {
+  translation -10.3 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_05 Solid {
+  translation -10.3 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_06 Solid {
+  translation -10.3 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_07 Solid {
+  translation -10.3 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_08 Solid {
+  translation -10.3 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_09 Solid {
+  translation -10.3 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_10 Solid {
+  translation -10.3 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_11 Solid {
+  translation -10.3 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_12 Solid {
+  translation -10.3 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_13 Solid {
+  translation -10.3 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_L_14 Solid {
+  translation -10.3 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_L_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_01 Solid {
+  translation -9.5 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_02 Solid {
+  translation -9.5 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_03 Solid {
+  translation -9.5 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_04 Solid {
+  translation -9.5 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_05 Solid {
+  translation -9.5 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_06 Solid {
+  translation -9.5 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_07 Solid {
+  translation -9.5 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_08 Solid {
+  translation -9.5 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_09 Solid {
+  translation -9.5 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_10 Solid {
+  translation -9.5 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_11 Solid {
+  translation -9.5 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_12 Solid {
+  translation -9.5 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_13 Solid {
+  translation -9.5 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_A_R_14 Solid {
+  translation -9.5 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_A_R_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_01 Solid {
+  translation -3.7 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_02 Solid {
+  translation -3.7 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_03 Solid {
+  translation -3.7 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_04 Solid {
+  translation -3.7 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_05 Solid {
+  translation -3.7 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_06 Solid {
+  translation -3.7 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_07 Solid {
+  translation -3.7 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_08 Solid {
+  translation -3.7 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_09 Solid {
+  translation -3.7 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_10 Solid {
+  translation -3.7 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_11 Solid {
+  translation -3.7 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_12 Solid {
+  translation -3.7 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_13 Solid {
+  translation -3.7 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_L_14 Solid {
+  translation -3.7 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_L_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_01 Solid {
+  translation -2.9 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_02 Solid {
+  translation -2.9 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_03 Solid {
+  translation -2.9 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_04 Solid {
+  translation -2.9 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_05 Solid {
+  translation -2.9 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_06 Solid {
+  translation -2.9 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_07 Solid {
+  translation -2.9 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_08 Solid {
+  translation -2.9 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_09 Solid {
+  translation -2.9 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_10 Solid {
+  translation -2.9 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_11 Solid {
+  translation -2.9 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_12 Solid {
+  translation -2.9 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_13 Solid {
+  translation -2.9 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_B_R_14 Solid {
+  translation -2.9 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_B_R_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_01 Solid {
+  translation 2.9 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_02 Solid {
+  translation 2.9 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_03 Solid {
+  translation 2.9 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_04 Solid {
+  translation 2.9 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_05 Solid {
+  translation 2.9 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_06 Solid {
+  translation 2.9 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_07 Solid {
+  translation 2.9 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_08 Solid {
+  translation 2.9 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_09 Solid {
+  translation 2.9 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_10 Solid {
+  translation 2.9 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_11 Solid {
+  translation 2.9 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_12 Solid {
+  translation 2.9 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_13 Solid {
+  translation 2.9 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_L_14 Solid {
+  translation 2.9 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_L_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_01 Solid {
+  translation 3.7 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_02 Solid {
+  translation 3.7 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_03 Solid {
+  translation 3.7 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_04 Solid {
+  translation 3.7 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_05 Solid {
+  translation 3.7 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_06 Solid {
+  translation 3.7 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_07 Solid {
+  translation 3.7 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_08 Solid {
+  translation 3.7 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_09 Solid {
+  translation 3.7 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_10 Solid {
+  translation 3.7 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_11 Solid {
+  translation 3.7 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_12 Solid {
+  translation 3.7 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_13 Solid {
+  translation 3.7 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_C_R_14 Solid {
+  translation 3.7 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_C_R_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_01 Solid {
+  translation 9.5 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_02 Solid {
+  translation 9.5 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_03 Solid {
+  translation 9.5 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_04 Solid {
+  translation 9.5 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_05 Solid {
+  translation 9.5 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_06 Solid {
+  translation 9.5 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_07 Solid {
+  translation 9.5 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_08 Solid {
+  translation 9.5 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_09 Solid {
+  translation 9.5 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_10 Solid {
+  translation 9.5 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_11 Solid {
+  translation 9.5 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_12 Solid {
+  translation 9.5 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_13 Solid {
+  translation 9.5 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_L_14 Solid {
+  translation 9.5 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_L_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_01 Solid {
+  translation 10.3 -12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_02 Solid {
+  translation 10.3 -10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_03 Solid {
+  translation 10.3 -8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_04 Solid {
+  translation 10.3 -6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_05 Solid {
+  translation 10.3 -4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_06 Solid {
+  translation 10.3 -2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_07 Solid {
+  translation 10.3 -0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_08 Solid {
+  translation 10.3 0.95 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_09 Solid {
+  translation 10.3 2.85 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_10 Solid {
+  translation 10.3 4.75 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_11 Solid {
+  translation 10.3 6.65 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_12 Solid {
+  translation 10.3 8.55 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_13 Solid {
+  translation 10.3 10.45 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_13"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF BLK_D_R_14 Solid {
+  translation 10.3 12.35 0.9
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "BLK_D_R_14"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_01 Solid {
+  translation -14.25 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_02 Solid {
+  translation -12.35 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_03 Solid {
+  translation -10.45 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_04 Solid {
+  translation -8.55 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_05 Solid {
+  translation -6.65 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_06 Solid {
+  translation -4.75 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_07 Solid {
+  translation 4.75 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_08 Solid {
+  translation 6.65 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_09 Solid {
+  translation 8.55 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_10 Solid {
+  translation 10.45 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_11 Solid {
+  translation 12.35 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_S_12 Solid {
+  translation 14.25 -18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_S_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_01 Solid {
+  translation -14.25 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_01"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_02 Solid {
+  translation -12.35 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_02"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_03 Solid {
+  translation -10.45 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_03"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_04 Solid {
+  translation -8.55 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_04"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_05 Solid {
+  translation -6.65 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_05"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_06 Solid {
+  translation -4.75 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_06"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_07 Solid {
+  translation 4.75 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_07"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_08 Solid {
+  translation 6.65 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_08"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_09 Solid {
+  translation 8.55 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_09"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_10 Solid {
+  translation 10.45 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_10"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_11 Solid {
+  translation 12.35 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_11"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF WALL_N_12 Solid {
+  translation 14.25 18.6 0.9
+  rotation 0 0 1 1.5708
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.3 0.3 1
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.8 1.9 1.8
+      }
+    }
+  ]
+  name "WALL_N_12"
+  boundingObject Box {
+    size 0.8 1.9 1.8
+  }
+}
+
+DEF goal_001 Solid {
+  translation -16.0 -16.15 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_001"
+}
+
+DEF goal_002 Solid {
+  translation -16.0 -14.25 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_002"
+}
+
+DEF goal_003 Solid {
+  translation -16.0 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_003"
+}
+
+DEF goal_004 Solid {
+  translation -16.0 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_004"
+}
+
+DEF goal_005 Solid {
+  translation -16.0 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_005"
+}
+
+DEF goal_006 Solid {
+  translation -16.0 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_006"
+}
+
+DEF goal_007 Solid {
+  translation -16.0 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_007"
+}
+
+DEF goal_008 Solid {
+  translation -16.0 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_008"
+}
+
+DEF goal_009 Solid {
+  translation -16.0 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_009"
+}
+
+DEF goal_010 Solid {
+  translation -16.0 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_010"
+}
+
+DEF goal_011 Solid {
+  translation -16.0 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_011"
+}
+
+DEF goal_012 Solid {
+  translation -16.0 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_012"
+}
+
+DEF goal_013 Solid {
+  translation -16.0 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_013"
+}
+
+DEF goal_014 Solid {
+  translation -16.0 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_014"
+}
+
+DEF goal_015 Solid {
+  translation -16.0 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_015"
+}
+
+DEF goal_016 Solid {
+  translation -16.0 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_016"
+}
+
+DEF goal_017 Solid {
+  translation -16.0 14.25 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_017"
+}
+
+DEF goal_018 Solid {
+  translation -16.0 16.15 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_018"
+}
+
+DEF goal_019 Solid {
+  translation 16.0 -16.15 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_019"
+}
+
+DEF goal_020 Solid {
+  translation 16.0 -14.25 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_020"
+}
+
+DEF goal_021 Solid {
+  translation 16.0 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_021"
+}
+
+DEF goal_022 Solid {
+  translation 16.0 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_022"
+}
+
+DEF goal_023 Solid {
+  translation 16.0 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_023"
+}
+
+DEF goal_024 Solid {
+  translation 16.0 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_024"
+}
+
+DEF goal_025 Solid {
+  translation 16.0 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_025"
+}
+
+DEF goal_026 Solid {
+  translation 16.0 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_026"
+}
+
+DEF goal_027 Solid {
+  translation 16.0 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_027"
+}
+
+DEF goal_028 Solid {
+  translation 16.0 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_028"
+}
+
+DEF goal_029 Solid {
+  translation 16.0 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_029"
+}
+
+DEF goal_030 Solid {
+  translation 16.0 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_030"
+}
+
+DEF goal_031 Solid {
+  translation 16.0 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_031"
+}
+
+DEF goal_032 Solid {
+  translation 16.0 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_032"
+}
+
+DEF goal_033 Solid {
+  translation 16.0 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_033"
+}
+
+DEF goal_034 Solid {
+  translation 16.0 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_034"
+}
+
+DEF goal_035 Solid {
+  translation 16.0 14.25 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_035"
+}
+
+DEF goal_036 Solid {
+  translation 16.0 16.15 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_036"
+}
+
+DEF goal_037 Solid {
+  translation -11.4 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_037"
+}
+
+DEF goal_038 Solid {
+  translation -11.4 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_038"
+}
+
+DEF goal_039 Solid {
+  translation -11.4 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_039"
+}
+
+DEF goal_040 Solid {
+  translation -11.4 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_040"
+}
+
+DEF goal_041 Solid {
+  translation -11.4 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_041"
+}
+
+DEF goal_042 Solid {
+  translation -11.4 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_042"
+}
+
+DEF goal_043 Solid {
+  translation -11.4 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_043"
+}
+
+DEF goal_044 Solid {
+  translation -11.4 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_044"
+}
+
+DEF goal_045 Solid {
+  translation -11.4 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_045"
+}
+
+DEF goal_046 Solid {
+  translation -11.4 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_046"
+}
+
+DEF goal_047 Solid {
+  translation -11.4 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_047"
+}
+
+DEF goal_048 Solid {
+  translation -11.4 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_048"
+}
+
+DEF goal_049 Solid {
+  translation -11.4 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_049"
+}
+
+DEF goal_050 Solid {
+  translation -11.4 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_050"
+}
+
+DEF goal_051 Solid {
+  translation -8.4 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_051"
+}
+
+DEF goal_052 Solid {
+  translation -8.4 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_052"
+}
+
+DEF goal_053 Solid {
+  translation -8.4 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_053"
+}
+
+DEF goal_054 Solid {
+  translation -8.4 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_054"
+}
+
+DEF goal_055 Solid {
+  translation -8.4 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_055"
+}
+
+DEF goal_056 Solid {
+  translation -8.4 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_056"
+}
+
+DEF goal_057 Solid {
+  translation -8.4 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_057"
+}
+
+DEF goal_058 Solid {
+  translation -8.4 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_058"
+}
+
+DEF goal_059 Solid {
+  translation -8.4 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_059"
+}
+
+DEF goal_060 Solid {
+  translation -8.4 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_060"
+}
+
+DEF goal_061 Solid {
+  translation -8.4 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_061"
+}
+
+DEF goal_062 Solid {
+  translation -8.4 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_062"
+}
+
+DEF goal_063 Solid {
+  translation -8.4 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_063"
+}
+
+DEF goal_064 Solid {
+  translation -8.4 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_064"
+}
+
+DEF goal_065 Solid {
+  translation -4.8 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_065"
+}
+
+DEF goal_066 Solid {
+  translation -4.8 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_066"
+}
+
+DEF goal_067 Solid {
+  translation -4.8 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_067"
+}
+
+DEF goal_068 Solid {
+  translation -4.8 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_068"
+}
+
+DEF goal_069 Solid {
+  translation -4.8 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_069"
+}
+
+DEF goal_070 Solid {
+  translation -4.8 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_070"
+}
+
+DEF goal_071 Solid {
+  translation -4.8 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_071"
+}
+
+DEF goal_072 Solid {
+  translation -4.8 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_072"
+}
+
+DEF goal_073 Solid {
+  translation -4.8 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_073"
+}
+
+DEF goal_074 Solid {
+  translation -4.8 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_074"
+}
+
+DEF goal_075 Solid {
+  translation -4.8 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_075"
+}
+
+DEF goal_076 Solid {
+  translation -4.8 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_076"
+}
+
+DEF goal_077 Solid {
+  translation -4.8 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_077"
+}
+
+DEF goal_078 Solid {
+  translation -4.8 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_078"
+}
+
+DEF goal_079 Solid {
+  translation -1.8 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_079"
+}
+
+DEF goal_080 Solid {
+  translation -1.8 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_080"
+}
+
+DEF goal_081 Solid {
+  translation -1.8 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_081"
+}
+
+DEF goal_082 Solid {
+  translation -1.8 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_082"
+}
+
+DEF goal_083 Solid {
+  translation -1.8 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_083"
+}
+
+DEF goal_084 Solid {
+  translation -1.8 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_084"
+}
+
+DEF goal_085 Solid {
+  translation -1.8 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_085"
+}
+
+DEF goal_086 Solid {
+  translation -1.8 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_086"
+}
+
+DEF goal_087 Solid {
+  translation -1.8 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_087"
+}
+
+DEF goal_088 Solid {
+  translation -1.8 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_088"
+}
+
+DEF goal_089 Solid {
+  translation -1.8 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_089"
+}
+
+DEF goal_090 Solid {
+  translation -1.8 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_090"
+}
+
+DEF goal_091 Solid {
+  translation -1.8 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_091"
+}
+
+DEF goal_092 Solid {
+  translation -1.8 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_092"
+}
+
+DEF goal_093 Solid {
+  translation 1.8 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_093"
+}
+
+DEF goal_094 Solid {
+  translation 1.8 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_094"
+}
+
+DEF goal_095 Solid {
+  translation 1.8 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_095"
+}
+
+DEF goal_096 Solid {
+  translation 1.8 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_096"
+}
+
+DEF goal_097 Solid {
+  translation 1.8 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_097"
+}
+
+DEF goal_098 Solid {
+  translation 1.8 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_098"
+}
+
+DEF goal_099 Solid {
+  translation 1.8 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_099"
+}
+
+DEF goal_100 Solid {
+  translation 1.8 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_100"
+}
+
+DEF goal_101 Solid {
+  translation 1.8 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_101"
+}
+
+DEF goal_102 Solid {
+  translation 1.8 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_102"
+}
+
+DEF goal_103 Solid {
+  translation 1.8 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_103"
+}
+
+DEF goal_104 Solid {
+  translation 1.8 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_104"
+}
+
+DEF goal_105 Solid {
+  translation 1.8 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_105"
+}
+
+DEF goal_106 Solid {
+  translation 1.8 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_106"
+}
+
+DEF goal_107 Solid {
+  translation 4.8 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_107"
+}
+
+DEF goal_108 Solid {
+  translation 4.8 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_108"
+}
+
+DEF goal_109 Solid {
+  translation 4.8 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_109"
+}
+
+DEF goal_110 Solid {
+  translation 4.8 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_110"
+}
+
+DEF goal_111 Solid {
+  translation 4.8 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_111"
+}
+
+DEF goal_112 Solid {
+  translation 4.8 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_112"
+}
+
+DEF goal_113 Solid {
+  translation 4.8 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_113"
+}
+
+DEF goal_114 Solid {
+  translation 4.8 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_114"
+}
+
+DEF goal_115 Solid {
+  translation 4.8 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_115"
+}
+
+DEF goal_116 Solid {
+  translation 4.8 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_116"
+}
+
+DEF goal_117 Solid {
+  translation 4.8 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_117"
+}
+
+DEF goal_118 Solid {
+  translation 4.8 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_118"
+}
+
+DEF goal_119 Solid {
+  translation 4.8 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_119"
+}
+
+DEF goal_120 Solid {
+  translation 4.8 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_120"
+}
+
+DEF goal_121 Solid {
+  translation 8.4 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_121"
+}
+
+DEF goal_122 Solid {
+  translation 8.4 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_122"
+}
+
+DEF goal_123 Solid {
+  translation 8.4 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_123"
+}
+
+DEF goal_124 Solid {
+  translation 8.4 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_124"
+}
+
+DEF goal_125 Solid {
+  translation 8.4 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_125"
+}
+
+DEF goal_126 Solid {
+  translation 8.4 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_126"
+}
+
+DEF goal_127 Solid {
+  translation 8.4 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_127"
+}
+
+DEF goal_128 Solid {
+  translation 8.4 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_128"
+}
+
+DEF goal_129 Solid {
+  translation 8.4 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_129"
+}
+
+DEF goal_130 Solid {
+  translation 8.4 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_130"
+}
+
+DEF goal_131 Solid {
+  translation 8.4 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_131"
+}
+
+DEF goal_132 Solid {
+  translation 8.4 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_132"
+}
+
+DEF goal_133 Solid {
+  translation 8.4 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_133"
+}
+
+DEF goal_134 Solid {
+  translation 8.4 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_134"
+}
+
+DEF goal_135 Solid {
+  translation 11.4 -12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_135"
+}
+
+DEF goal_136 Solid {
+  translation 11.4 -10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_136"
+}
+
+DEF goal_137 Solid {
+  translation 11.4 -8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_137"
+}
+
+DEF goal_138 Solid {
+  translation 11.4 -6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_138"
+}
+
+DEF goal_139 Solid {
+  translation 11.4 -4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_139"
+}
+
+DEF goal_140 Solid {
+  translation 11.4 -2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_140"
+}
+
+DEF goal_141 Solid {
+  translation 11.4 -0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_141"
+}
+
+DEF goal_142 Solid {
+  translation 11.4 0.95 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_142"
+}
+
+DEF goal_143 Solid {
+  translation 11.4 2.85 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_143"
+}
+
+DEF goal_144 Solid {
+  translation 11.4 4.75 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_144"
+}
+
+DEF goal_145 Solid {
+  translation 11.4 6.65 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_145"
+}
+
+DEF goal_146 Solid {
+  translation 11.4 8.55 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_146"
+}
+
+DEF goal_147 Solid {
+  translation 11.4 10.45 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_147"
+}
+
+DEF goal_148 Solid {
+  translation 11.4 12.35 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_148"
+}
+
+DEF goal_149 Solid {
+  translation -14.25 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_149"
+}
+
+DEF goal_150 Solid {
+  translation -12.35 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_150"
+}
+
+DEF goal_151 Solid {
+  translation -10.45 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_151"
+}
+
+DEF goal_152 Solid {
+  translation -8.55 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_152"
+}
+
+DEF goal_153 Solid {
+  translation -6.65 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_153"
+}
+
+DEF goal_154 Solid {
+  translation -4.75 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_154"
+}
+
+DEF goal_155 Solid {
+  translation 4.75 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_155"
+}
+
+DEF goal_156 Solid {
+  translation 6.65 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_156"
+}
+
+DEF goal_157 Solid {
+  translation 8.55 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_157"
+}
+
+DEF goal_158 Solid {
+  translation 10.45 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_158"
+}
+
+DEF goal_159 Solid {
+  translation 12.35 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_159"
+}
+
+DEF goal_160 Solid {
+  translation 14.25 -17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_160"
+}
+
+DEF goal_161 Solid {
+  translation -14.25 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_161"
+}
+
+DEF goal_162 Solid {
+  translation -12.35 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_162"
+}
+
+DEF goal_163 Solid {
+  translation -10.45 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_163"
+}
+
+DEF goal_164 Solid {
+  translation -8.55 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_164"
+}
+
+DEF goal_165 Solid {
+  translation -6.65 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_165"
+}
+
+DEF goal_166 Solid {
+  translation -4.75 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_166"
+}
+
+DEF goal_167 Solid {
+  translation 4.75 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_167"
+}
+
+DEF goal_168 Solid {
+  translation 6.65 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_168"
+}
+
+DEF goal_169 Solid {
+  translation 8.55 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_169"
+}
+
+DEF goal_170 Solid {
+  translation 10.45 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_170"
+}
+
+DEF goal_171 Solid {
+  translation 12.35 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_171"
+}
+
+DEF goal_172 Solid {
+  translation 14.25 17.0 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.1 0
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "goal_172"
+}
+
+DEF DROPOFF_MARKER Solid {
+  translation 0.0 16.5 0.2
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0.8 0.1
+      }
+      geometry Sphere {
+        radius 0.1
+      }
+    }
+  ]
+  name "dropoff"
+}
+
+DEF MIR Mir100 {
+  translation 0.0 -17.5 0
+  rotation 0 0 1 1.5708
+  controller "rl_train_STHWP"
+  supervisor TRUE
+  bodySlot [
+    Lidar {
+      translation 0 0 -0.25
+      horizontalResolution 36
+      fieldOfView 6.28
+      verticalFieldOfView 0.57
+      numberOfLayers 1
+      minRange 0.5
+      maxRange 6
+    }
+    Compass {
+    }
+    GPS {
+    }
+    TouchSensor {
+      name "bumper"
+      boundingObject Box {
+        size 0.9 0.6 0.4
+      }
+    }
+  ]
+}
+
+DEF wall_left Solid {
+  translation -17.5 0.0 1.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+      }
+      geometry Box {
+        size 0.2 38.0 3.0
+      }
+    }
+  ]
+  name "wall_left"
+  boundingObject Box {
+    size 0.2 38.0 3.0
+  }
+}
+
+DEF wall_right Solid {
+  translation 17.5 0.0 1.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+      }
+      geometry Box {
+        size 0.2 38.0 3.0
+      }
+    }
+  ]
+  name "wall_right"
+  boundingObject Box {
+    size 0.2 38.0 3.0
+  }
+}
+
+DEF wall_south Solid {
+  translation 0.0 -19.0 1.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+      }
+      geometry Box {
+        size 35.0 0.2 3.0
+      }
+    }
+  ]
+  name "wall_south"
+  boundingObject Box {
+    size 35.0 0.2 3.0
+  }
+}
+
+DEF wall_north Solid {
+  translation 0.0 19.0 1.5
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.8 0.8 0.8
+        roughness 1
+      }
+      geometry Box {
+        size 35.0 0.2 3.0
+      }
+    }
+  ]
+  name "wall_north"
+  boundingObject Box {
+    size 35.0 0.2 3.0
+  }
+}
+
+DEF PEDESTRIAN_1 Pedestrian {
+  translation -6.6 -6.0 1.27
+  name "pedestrian_1"
+  controllerArgs [
+    "--trajectory=-6.6 -13.3, -6.6 13.3"
+    "--speed=0.5"
+  ]
+  enableBoundingObject TRUE
+}
+
+

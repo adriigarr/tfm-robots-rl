@@ -1,0 +1,3989 @@
+{
+  "map": {
+    "width": 280,
+    "height": 400,
+    "resolution": 0.25,
+    "origin": [
+      -35.0,
+      -50.0
+    ]
+  },
+  "zones": {
+    "waiting": {
+      "x": -32.0,
+      "y": -44.0
+    },
+    "dropoff": {
+      "x": 0.0,
+      "y": 48.0
+    }
+  },
+  "shelves": [
+    {
+      "id": "WALL_S_01",
+      "goal_id": "goal_001",
+      "shelf_x": -33.25,
+      "shelf_y": -49.6,
+      "goal_x": -33.25,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_02",
+      "goal_id": "goal_002",
+      "shelf_x": -31.35,
+      "shelf_y": -49.6,
+      "goal_x": -31.35,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_03",
+      "goal_id": "goal_003",
+      "shelf_x": -29.45,
+      "shelf_y": -49.6,
+      "goal_x": -29.45,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_04",
+      "goal_id": "goal_004",
+      "shelf_x": -27.55,
+      "shelf_y": -49.6,
+      "goal_x": -27.55,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_05",
+      "goal_id": "goal_005",
+      "shelf_x": -25.65,
+      "shelf_y": -49.6,
+      "goal_x": -25.65,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_06",
+      "goal_id": "goal_006",
+      "shelf_x": -23.75,
+      "shelf_y": -49.6,
+      "goal_x": -23.75,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_07",
+      "goal_id": "goal_007",
+      "shelf_x": -21.85,
+      "shelf_y": -49.6,
+      "goal_x": -21.85,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_08",
+      "goal_id": "goal_008",
+      "shelf_x": -19.95,
+      "shelf_y": -49.6,
+      "goal_x": -19.95,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_09",
+      "goal_id": "goal_009",
+      "shelf_x": -18.05,
+      "shelf_y": -49.6,
+      "goal_x": -18.05,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_10",
+      "goal_id": "goal_010",
+      "shelf_x": -16.15,
+      "shelf_y": -49.6,
+      "goal_x": -16.15,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_11",
+      "goal_id": "goal_011",
+      "shelf_x": -14.25,
+      "shelf_y": -49.6,
+      "goal_x": -14.25,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_12",
+      "goal_id": "goal_012",
+      "shelf_x": -12.35,
+      "shelf_y": -49.6,
+      "goal_x": -12.35,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_13",
+      "goal_id": "goal_013",
+      "shelf_x": -10.45,
+      "shelf_y": -49.6,
+      "goal_x": -10.45,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_14",
+      "goal_id": "goal_014",
+      "shelf_x": -8.55,
+      "shelf_y": -49.6,
+      "goal_x": -8.55,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_15",
+      "goal_id": "goal_015",
+      "shelf_x": -6.65,
+      "shelf_y": -49.6,
+      "goal_x": -6.65,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_16",
+      "goal_id": "goal_016",
+      "shelf_x": -4.75,
+      "shelf_y": -49.6,
+      "goal_x": -4.75,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_17",
+      "goal_id": "goal_017",
+      "shelf_x": -2.85,
+      "shelf_y": -49.6,
+      "goal_x": -2.85,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_18",
+      "goal_id": "goal_018",
+      "shelf_x": -0.95,
+      "shelf_y": -49.6,
+      "goal_x": -0.95,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_19",
+      "goal_id": "goal_019",
+      "shelf_x": 0.95,
+      "shelf_y": -49.6,
+      "goal_x": 0.95,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_20",
+      "goal_id": "goal_020",
+      "shelf_x": 2.85,
+      "shelf_y": -49.6,
+      "goal_x": 2.85,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_21",
+      "goal_id": "goal_021",
+      "shelf_x": 4.75,
+      "shelf_y": -49.6,
+      "goal_x": 4.75,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_22",
+      "goal_id": "goal_022",
+      "shelf_x": 6.65,
+      "shelf_y": -49.6,
+      "goal_x": 6.65,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_23",
+      "goal_id": "goal_023",
+      "shelf_x": 8.55,
+      "shelf_y": -49.6,
+      "goal_x": 8.55,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_24",
+      "goal_id": "goal_024",
+      "shelf_x": 10.45,
+      "shelf_y": -49.6,
+      "goal_x": 10.45,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_25",
+      "goal_id": "goal_025",
+      "shelf_x": 12.35,
+      "shelf_y": -49.6,
+      "goal_x": 12.35,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_26",
+      "goal_id": "goal_026",
+      "shelf_x": 14.25,
+      "shelf_y": -49.6,
+      "goal_x": 14.25,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_27",
+      "goal_id": "goal_027",
+      "shelf_x": 16.15,
+      "shelf_y": -49.6,
+      "goal_x": 16.15,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_28",
+      "goal_id": "goal_028",
+      "shelf_x": 18.05,
+      "shelf_y": -49.6,
+      "goal_x": 18.05,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_29",
+      "goal_id": "goal_029",
+      "shelf_x": 19.95,
+      "shelf_y": -49.6,
+      "goal_x": 19.95,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_30",
+      "goal_id": "goal_030",
+      "shelf_x": 21.85,
+      "shelf_y": -49.6,
+      "goal_x": 21.85,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_31",
+      "goal_id": "goal_031",
+      "shelf_x": 23.75,
+      "shelf_y": -49.6,
+      "goal_x": 23.75,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_32",
+      "goal_id": "goal_032",
+      "shelf_x": 25.65,
+      "shelf_y": -49.6,
+      "goal_x": 25.65,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_33",
+      "goal_id": "goal_033",
+      "shelf_x": 27.55,
+      "shelf_y": -49.6,
+      "goal_x": 27.55,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_34",
+      "goal_id": "goal_034",
+      "shelf_x": 29.45,
+      "shelf_y": -49.6,
+      "goal_x": 29.45,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_35",
+      "goal_id": "goal_035",
+      "shelf_x": 31.35,
+      "shelf_y": -49.6,
+      "goal_x": 31.35,
+      "goal_y": -48.5
+    },
+    {
+      "id": "WALL_S_36",
+      "goal_id": "goal_036",
+      "shelf_x": 33.25,
+      "shelf_y": -49.6,
+      "goal_x": 33.25,
+      "goal_y": -48.5
+    },
+    {
+      "id": "M01_LS_01",
+      "goal_id": "goal_037",
+      "shelf_x": -33.2,
+      "shelf_y": -34.8,
+      "goal_x": -33.2,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_01",
+      "goal_id": "goal_038",
+      "shelf_x": -33.2,
+      "shelf_y": -34.0,
+      "goal_x": -33.2,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_02",
+      "goal_id": "goal_039",
+      "shelf_x": -31.3,
+      "shelf_y": -34.8,
+      "goal_x": -31.3,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_02",
+      "goal_id": "goal_040",
+      "shelf_x": -31.3,
+      "shelf_y": -34.0,
+      "goal_x": -31.3,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_03",
+      "goal_id": "goal_041",
+      "shelf_x": -29.4,
+      "shelf_y": -34.8,
+      "goal_x": -29.4,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_03",
+      "goal_id": "goal_042",
+      "shelf_x": -29.4,
+      "shelf_y": -34.0,
+      "goal_x": -29.4,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_04",
+      "goal_id": "goal_043",
+      "shelf_x": -27.5,
+      "shelf_y": -34.8,
+      "goal_x": -27.5,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_04",
+      "goal_id": "goal_044",
+      "shelf_x": -27.5,
+      "shelf_y": -34.0,
+      "goal_x": -27.5,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_05",
+      "goal_id": "goal_045",
+      "shelf_x": -25.6,
+      "shelf_y": -34.8,
+      "goal_x": -25.6,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_05",
+      "goal_id": "goal_046",
+      "shelf_x": -25.6,
+      "shelf_y": -34.0,
+      "goal_x": -25.6,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_06",
+      "goal_id": "goal_047",
+      "shelf_x": -23.7,
+      "shelf_y": -34.8,
+      "goal_x": -23.7,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_06",
+      "goal_id": "goal_048",
+      "shelf_x": -23.7,
+      "shelf_y": -34.0,
+      "goal_x": -23.7,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_07",
+      "goal_id": "goal_049",
+      "shelf_x": -21.8,
+      "shelf_y": -34.8,
+      "goal_x": -21.8,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_07",
+      "goal_id": "goal_050",
+      "shelf_x": -21.8,
+      "shelf_y": -34.0,
+      "goal_x": -21.8,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_08",
+      "goal_id": "goal_051",
+      "shelf_x": -19.9,
+      "shelf_y": -34.8,
+      "goal_x": -19.9,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_08",
+      "goal_id": "goal_052",
+      "shelf_x": -19.9,
+      "shelf_y": -34.0,
+      "goal_x": -19.9,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_09",
+      "goal_id": "goal_053",
+      "shelf_x": -18.0,
+      "shelf_y": -34.8,
+      "goal_x": -18.0,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_09",
+      "goal_id": "goal_054",
+      "shelf_x": -18.0,
+      "shelf_y": -34.0,
+      "goal_x": -18.0,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_10",
+      "goal_id": "goal_055",
+      "shelf_x": -16.1,
+      "shelf_y": -34.8,
+      "goal_x": -16.1,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_10",
+      "goal_id": "goal_056",
+      "shelf_x": -16.1,
+      "shelf_y": -34.0,
+      "goal_x": -16.1,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_11",
+      "goal_id": "goal_057",
+      "shelf_x": -14.2,
+      "shelf_y": -34.8,
+      "goal_x": -14.2,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_11",
+      "goal_id": "goal_058",
+      "shelf_x": -14.2,
+      "shelf_y": -34.0,
+      "goal_x": -14.2,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_LS_12",
+      "goal_id": "goal_059",
+      "shelf_x": -12.3,
+      "shelf_y": -34.8,
+      "goal_x": -12.3,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_LN_12",
+      "goal_id": "goal_060",
+      "shelf_x": -12.3,
+      "shelf_y": -34.0,
+      "goal_x": -12.3,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_01",
+      "goal_id": "goal_061",
+      "shelf_x": 12.3,
+      "shelf_y": -34.8,
+      "goal_x": 12.3,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_01",
+      "goal_id": "goal_062",
+      "shelf_x": 12.3,
+      "shelf_y": -34.0,
+      "goal_x": 12.3,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_02",
+      "goal_id": "goal_063",
+      "shelf_x": 14.2,
+      "shelf_y": -34.8,
+      "goal_x": 14.2,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_02",
+      "goal_id": "goal_064",
+      "shelf_x": 14.2,
+      "shelf_y": -34.0,
+      "goal_x": 14.2,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_03",
+      "goal_id": "goal_065",
+      "shelf_x": 16.1,
+      "shelf_y": -34.8,
+      "goal_x": 16.1,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_03",
+      "goal_id": "goal_066",
+      "shelf_x": 16.1,
+      "shelf_y": -34.0,
+      "goal_x": 16.1,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_04",
+      "goal_id": "goal_067",
+      "shelf_x": 18.0,
+      "shelf_y": -34.8,
+      "goal_x": 18.0,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_04",
+      "goal_id": "goal_068",
+      "shelf_x": 18.0,
+      "shelf_y": -34.0,
+      "goal_x": 18.0,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_05",
+      "goal_id": "goal_069",
+      "shelf_x": 19.9,
+      "shelf_y": -34.8,
+      "goal_x": 19.9,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_05",
+      "goal_id": "goal_070",
+      "shelf_x": 19.9,
+      "shelf_y": -34.0,
+      "goal_x": 19.9,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_06",
+      "goal_id": "goal_071",
+      "shelf_x": 21.8,
+      "shelf_y": -34.8,
+      "goal_x": 21.8,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_06",
+      "goal_id": "goal_072",
+      "shelf_x": 21.8,
+      "shelf_y": -34.0,
+      "goal_x": 21.8,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_07",
+      "goal_id": "goal_073",
+      "shelf_x": 23.7,
+      "shelf_y": -34.8,
+      "goal_x": 23.7,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_07",
+      "goal_id": "goal_074",
+      "shelf_x": 23.7,
+      "shelf_y": -34.0,
+      "goal_x": 23.7,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_08",
+      "goal_id": "goal_075",
+      "shelf_x": 25.6,
+      "shelf_y": -34.8,
+      "goal_x": 25.6,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_08",
+      "goal_id": "goal_076",
+      "shelf_x": 25.6,
+      "shelf_y": -34.0,
+      "goal_x": 25.6,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_09",
+      "goal_id": "goal_077",
+      "shelf_x": 27.5,
+      "shelf_y": -34.8,
+      "goal_x": 27.5,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_09",
+      "goal_id": "goal_078",
+      "shelf_x": 27.5,
+      "shelf_y": -34.0,
+      "goal_x": 27.5,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_10",
+      "goal_id": "goal_079",
+      "shelf_x": 29.4,
+      "shelf_y": -34.8,
+      "goal_x": 29.4,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_10",
+      "goal_id": "goal_080",
+      "shelf_x": 29.4,
+      "shelf_y": -34.0,
+      "goal_x": 29.4,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_11",
+      "goal_id": "goal_081",
+      "shelf_x": 31.3,
+      "shelf_y": -34.8,
+      "goal_x": 31.3,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_11",
+      "goal_id": "goal_082",
+      "shelf_x": 31.3,
+      "shelf_y": -34.0,
+      "goal_x": 31.3,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M01_RS_12",
+      "goal_id": "goal_083",
+      "shelf_x": 33.2,
+      "shelf_y": -34.8,
+      "goal_x": 33.2,
+      "goal_y": -35.5
+    },
+    {
+      "id": "M01_RN_12",
+      "goal_id": "goal_084",
+      "shelf_x": 33.2,
+      "shelf_y": -34.0,
+      "goal_x": 33.2,
+      "goal_y": -33.3
+    },
+    {
+      "id": "M02_LS_01",
+      "goal_id": "goal_085",
+      "shelf_x": -33.2,
+      "shelf_y": -27.2,
+      "goal_x": -33.2,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_01",
+      "goal_id": "goal_086",
+      "shelf_x": -33.2,
+      "shelf_y": -26.4,
+      "goal_x": -33.2,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_02",
+      "goal_id": "goal_087",
+      "shelf_x": -31.3,
+      "shelf_y": -27.2,
+      "goal_x": -31.3,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_02",
+      "goal_id": "goal_088",
+      "shelf_x": -31.3,
+      "shelf_y": -26.4,
+      "goal_x": -31.3,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_03",
+      "goal_id": "goal_089",
+      "shelf_x": -29.4,
+      "shelf_y": -27.2,
+      "goal_x": -29.4,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_03",
+      "goal_id": "goal_090",
+      "shelf_x": -29.4,
+      "shelf_y": -26.4,
+      "goal_x": -29.4,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_04",
+      "goal_id": "goal_091",
+      "shelf_x": -27.5,
+      "shelf_y": -27.2,
+      "goal_x": -27.5,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_04",
+      "goal_id": "goal_092",
+      "shelf_x": -27.5,
+      "shelf_y": -26.4,
+      "goal_x": -27.5,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_05",
+      "goal_id": "goal_093",
+      "shelf_x": -25.6,
+      "shelf_y": -27.2,
+      "goal_x": -25.6,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_05",
+      "goal_id": "goal_094",
+      "shelf_x": -25.6,
+      "shelf_y": -26.4,
+      "goal_x": -25.6,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_06",
+      "goal_id": "goal_095",
+      "shelf_x": -23.7,
+      "shelf_y": -27.2,
+      "goal_x": -23.7,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_06",
+      "goal_id": "goal_096",
+      "shelf_x": -23.7,
+      "shelf_y": -26.4,
+      "goal_x": -23.7,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_07",
+      "goal_id": "goal_097",
+      "shelf_x": -21.8,
+      "shelf_y": -27.2,
+      "goal_x": -21.8,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_07",
+      "goal_id": "goal_098",
+      "shelf_x": -21.8,
+      "shelf_y": -26.4,
+      "goal_x": -21.8,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_08",
+      "goal_id": "goal_099",
+      "shelf_x": -19.9,
+      "shelf_y": -27.2,
+      "goal_x": -19.9,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_08",
+      "goal_id": "goal_100",
+      "shelf_x": -19.9,
+      "shelf_y": -26.4,
+      "goal_x": -19.9,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_09",
+      "goal_id": "goal_101",
+      "shelf_x": -18.0,
+      "shelf_y": -27.2,
+      "goal_x": -18.0,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_09",
+      "goal_id": "goal_102",
+      "shelf_x": -18.0,
+      "shelf_y": -26.4,
+      "goal_x": -18.0,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_10",
+      "goal_id": "goal_103",
+      "shelf_x": -16.1,
+      "shelf_y": -27.2,
+      "goal_x": -16.1,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_10",
+      "goal_id": "goal_104",
+      "shelf_x": -16.1,
+      "shelf_y": -26.4,
+      "goal_x": -16.1,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_11",
+      "goal_id": "goal_105",
+      "shelf_x": -14.2,
+      "shelf_y": -27.2,
+      "goal_x": -14.2,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_11",
+      "goal_id": "goal_106",
+      "shelf_x": -14.2,
+      "shelf_y": -26.4,
+      "goal_x": -14.2,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_LS_12",
+      "goal_id": "goal_107",
+      "shelf_x": -12.3,
+      "shelf_y": -27.2,
+      "goal_x": -12.3,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_LN_12",
+      "goal_id": "goal_108",
+      "shelf_x": -12.3,
+      "shelf_y": -26.4,
+      "goal_x": -12.3,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_01",
+      "goal_id": "goal_109",
+      "shelf_x": 12.3,
+      "shelf_y": -27.2,
+      "goal_x": 12.3,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_01",
+      "goal_id": "goal_110",
+      "shelf_x": 12.3,
+      "shelf_y": -26.4,
+      "goal_x": 12.3,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_02",
+      "goal_id": "goal_111",
+      "shelf_x": 14.2,
+      "shelf_y": -27.2,
+      "goal_x": 14.2,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_02",
+      "goal_id": "goal_112",
+      "shelf_x": 14.2,
+      "shelf_y": -26.4,
+      "goal_x": 14.2,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_03",
+      "goal_id": "goal_113",
+      "shelf_x": 16.1,
+      "shelf_y": -27.2,
+      "goal_x": 16.1,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_03",
+      "goal_id": "goal_114",
+      "shelf_x": 16.1,
+      "shelf_y": -26.4,
+      "goal_x": 16.1,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_04",
+      "goal_id": "goal_115",
+      "shelf_x": 18.0,
+      "shelf_y": -27.2,
+      "goal_x": 18.0,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_04",
+      "goal_id": "goal_116",
+      "shelf_x": 18.0,
+      "shelf_y": -26.4,
+      "goal_x": 18.0,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_05",
+      "goal_id": "goal_117",
+      "shelf_x": 19.9,
+      "shelf_y": -27.2,
+      "goal_x": 19.9,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_05",
+      "goal_id": "goal_118",
+      "shelf_x": 19.9,
+      "shelf_y": -26.4,
+      "goal_x": 19.9,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_06",
+      "goal_id": "goal_119",
+      "shelf_x": 21.8,
+      "shelf_y": -27.2,
+      "goal_x": 21.8,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_06",
+      "goal_id": "goal_120",
+      "shelf_x": 21.8,
+      "shelf_y": -26.4,
+      "goal_x": 21.8,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_07",
+      "goal_id": "goal_121",
+      "shelf_x": 23.7,
+      "shelf_y": -27.2,
+      "goal_x": 23.7,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_07",
+      "goal_id": "goal_122",
+      "shelf_x": 23.7,
+      "shelf_y": -26.4,
+      "goal_x": 23.7,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_08",
+      "goal_id": "goal_123",
+      "shelf_x": 25.6,
+      "shelf_y": -27.2,
+      "goal_x": 25.6,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_08",
+      "goal_id": "goal_124",
+      "shelf_x": 25.6,
+      "shelf_y": -26.4,
+      "goal_x": 25.6,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_09",
+      "goal_id": "goal_125",
+      "shelf_x": 27.5,
+      "shelf_y": -27.2,
+      "goal_x": 27.5,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_09",
+      "goal_id": "goal_126",
+      "shelf_x": 27.5,
+      "shelf_y": -26.4,
+      "goal_x": 27.5,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_10",
+      "goal_id": "goal_127",
+      "shelf_x": 29.4,
+      "shelf_y": -27.2,
+      "goal_x": 29.4,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_10",
+      "goal_id": "goal_128",
+      "shelf_x": 29.4,
+      "shelf_y": -26.4,
+      "goal_x": 29.4,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_11",
+      "goal_id": "goal_129",
+      "shelf_x": 31.3,
+      "shelf_y": -27.2,
+      "goal_x": 31.3,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_11",
+      "goal_id": "goal_130",
+      "shelf_x": 31.3,
+      "shelf_y": -26.4,
+      "goal_x": 31.3,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M02_RS_12",
+      "goal_id": "goal_131",
+      "shelf_x": 33.2,
+      "shelf_y": -27.2,
+      "goal_x": 33.2,
+      "goal_y": -27.9
+    },
+    {
+      "id": "M02_RN_12",
+      "goal_id": "goal_132",
+      "shelf_x": 33.2,
+      "shelf_y": -26.4,
+      "goal_x": 33.2,
+      "goal_y": -25.7
+    },
+    {
+      "id": "M03_LS_01",
+      "goal_id": "goal_133",
+      "shelf_x": -33.2,
+      "shelf_y": -19.6,
+      "goal_x": -33.2,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_01",
+      "goal_id": "goal_134",
+      "shelf_x": -33.2,
+      "shelf_y": -18.8,
+      "goal_x": -33.2,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_02",
+      "goal_id": "goal_135",
+      "shelf_x": -31.3,
+      "shelf_y": -19.6,
+      "goal_x": -31.3,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_02",
+      "goal_id": "goal_136",
+      "shelf_x": -31.3,
+      "shelf_y": -18.8,
+      "goal_x": -31.3,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_03",
+      "goal_id": "goal_137",
+      "shelf_x": -29.4,
+      "shelf_y": -19.6,
+      "goal_x": -29.4,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_03",
+      "goal_id": "goal_138",
+      "shelf_x": -29.4,
+      "shelf_y": -18.8,
+      "goal_x": -29.4,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_04",
+      "goal_id": "goal_139",
+      "shelf_x": -27.5,
+      "shelf_y": -19.6,
+      "goal_x": -27.5,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_04",
+      "goal_id": "goal_140",
+      "shelf_x": -27.5,
+      "shelf_y": -18.8,
+      "goal_x": -27.5,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_05",
+      "goal_id": "goal_141",
+      "shelf_x": -25.6,
+      "shelf_y": -19.6,
+      "goal_x": -25.6,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_05",
+      "goal_id": "goal_142",
+      "shelf_x": -25.6,
+      "shelf_y": -18.8,
+      "goal_x": -25.6,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_06",
+      "goal_id": "goal_143",
+      "shelf_x": -23.7,
+      "shelf_y": -19.6,
+      "goal_x": -23.7,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_06",
+      "goal_id": "goal_144",
+      "shelf_x": -23.7,
+      "shelf_y": -18.8,
+      "goal_x": -23.7,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_07",
+      "goal_id": "goal_145",
+      "shelf_x": -21.8,
+      "shelf_y": -19.6,
+      "goal_x": -21.8,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_07",
+      "goal_id": "goal_146",
+      "shelf_x": -21.8,
+      "shelf_y": -18.8,
+      "goal_x": -21.8,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_08",
+      "goal_id": "goal_147",
+      "shelf_x": -19.9,
+      "shelf_y": -19.6,
+      "goal_x": -19.9,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_08",
+      "goal_id": "goal_148",
+      "shelf_x": -19.9,
+      "shelf_y": -18.8,
+      "goal_x": -19.9,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_09",
+      "goal_id": "goal_149",
+      "shelf_x": -18.0,
+      "shelf_y": -19.6,
+      "goal_x": -18.0,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_09",
+      "goal_id": "goal_150",
+      "shelf_x": -18.0,
+      "shelf_y": -18.8,
+      "goal_x": -18.0,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_10",
+      "goal_id": "goal_151",
+      "shelf_x": -16.1,
+      "shelf_y": -19.6,
+      "goal_x": -16.1,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_10",
+      "goal_id": "goal_152",
+      "shelf_x": -16.1,
+      "shelf_y": -18.8,
+      "goal_x": -16.1,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_11",
+      "goal_id": "goal_153",
+      "shelf_x": -14.2,
+      "shelf_y": -19.6,
+      "goal_x": -14.2,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_11",
+      "goal_id": "goal_154",
+      "shelf_x": -14.2,
+      "shelf_y": -18.8,
+      "goal_x": -14.2,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_LS_12",
+      "goal_id": "goal_155",
+      "shelf_x": -12.3,
+      "shelf_y": -19.6,
+      "goal_x": -12.3,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_LN_12",
+      "goal_id": "goal_156",
+      "shelf_x": -12.3,
+      "shelf_y": -18.8,
+      "goal_x": -12.3,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_01",
+      "goal_id": "goal_157",
+      "shelf_x": 12.3,
+      "shelf_y": -19.6,
+      "goal_x": 12.3,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_01",
+      "goal_id": "goal_158",
+      "shelf_x": 12.3,
+      "shelf_y": -18.8,
+      "goal_x": 12.3,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_02",
+      "goal_id": "goal_159",
+      "shelf_x": 14.2,
+      "shelf_y": -19.6,
+      "goal_x": 14.2,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_02",
+      "goal_id": "goal_160",
+      "shelf_x": 14.2,
+      "shelf_y": -18.8,
+      "goal_x": 14.2,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_03",
+      "goal_id": "goal_161",
+      "shelf_x": 16.1,
+      "shelf_y": -19.6,
+      "goal_x": 16.1,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_03",
+      "goal_id": "goal_162",
+      "shelf_x": 16.1,
+      "shelf_y": -18.8,
+      "goal_x": 16.1,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_04",
+      "goal_id": "goal_163",
+      "shelf_x": 18.0,
+      "shelf_y": -19.6,
+      "goal_x": 18.0,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_04",
+      "goal_id": "goal_164",
+      "shelf_x": 18.0,
+      "shelf_y": -18.8,
+      "goal_x": 18.0,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_05",
+      "goal_id": "goal_165",
+      "shelf_x": 19.9,
+      "shelf_y": -19.6,
+      "goal_x": 19.9,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_05",
+      "goal_id": "goal_166",
+      "shelf_x": 19.9,
+      "shelf_y": -18.8,
+      "goal_x": 19.9,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_06",
+      "goal_id": "goal_167",
+      "shelf_x": 21.8,
+      "shelf_y": -19.6,
+      "goal_x": 21.8,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_06",
+      "goal_id": "goal_168",
+      "shelf_x": 21.8,
+      "shelf_y": -18.8,
+      "goal_x": 21.8,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_07",
+      "goal_id": "goal_169",
+      "shelf_x": 23.7,
+      "shelf_y": -19.6,
+      "goal_x": 23.7,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_07",
+      "goal_id": "goal_170",
+      "shelf_x": 23.7,
+      "shelf_y": -18.8,
+      "goal_x": 23.7,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_08",
+      "goal_id": "goal_171",
+      "shelf_x": 25.6,
+      "shelf_y": -19.6,
+      "goal_x": 25.6,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_08",
+      "goal_id": "goal_172",
+      "shelf_x": 25.6,
+      "shelf_y": -18.8,
+      "goal_x": 25.6,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_09",
+      "goal_id": "goal_173",
+      "shelf_x": 27.5,
+      "shelf_y": -19.6,
+      "goal_x": 27.5,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_09",
+      "goal_id": "goal_174",
+      "shelf_x": 27.5,
+      "shelf_y": -18.8,
+      "goal_x": 27.5,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_10",
+      "goal_id": "goal_175",
+      "shelf_x": 29.4,
+      "shelf_y": -19.6,
+      "goal_x": 29.4,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_10",
+      "goal_id": "goal_176",
+      "shelf_x": 29.4,
+      "shelf_y": -18.8,
+      "goal_x": 29.4,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_11",
+      "goal_id": "goal_177",
+      "shelf_x": 31.3,
+      "shelf_y": -19.6,
+      "goal_x": 31.3,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_11",
+      "goal_id": "goal_178",
+      "shelf_x": 31.3,
+      "shelf_y": -18.8,
+      "goal_x": 31.3,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M03_RS_12",
+      "goal_id": "goal_179",
+      "shelf_x": 33.2,
+      "shelf_y": -19.6,
+      "goal_x": 33.2,
+      "goal_y": -20.3
+    },
+    {
+      "id": "M03_RN_12",
+      "goal_id": "goal_180",
+      "shelf_x": 33.2,
+      "shelf_y": -18.8,
+      "goal_x": 33.2,
+      "goal_y": -18.1
+    },
+    {
+      "id": "M04_LS_01",
+      "goal_id": "goal_181",
+      "shelf_x": -33.2,
+      "shelf_y": -12.0,
+      "goal_x": -33.2,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_01",
+      "goal_id": "goal_182",
+      "shelf_x": -33.2,
+      "shelf_y": -11.2,
+      "goal_x": -33.2,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_02",
+      "goal_id": "goal_183",
+      "shelf_x": -31.3,
+      "shelf_y": -12.0,
+      "goal_x": -31.3,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_02",
+      "goal_id": "goal_184",
+      "shelf_x": -31.3,
+      "shelf_y": -11.2,
+      "goal_x": -31.3,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_03",
+      "goal_id": "goal_185",
+      "shelf_x": -29.4,
+      "shelf_y": -12.0,
+      "goal_x": -29.4,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_03",
+      "goal_id": "goal_186",
+      "shelf_x": -29.4,
+      "shelf_y": -11.2,
+      "goal_x": -29.4,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_04",
+      "goal_id": "goal_187",
+      "shelf_x": -27.5,
+      "shelf_y": -12.0,
+      "goal_x": -27.5,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_04",
+      "goal_id": "goal_188",
+      "shelf_x": -27.5,
+      "shelf_y": -11.2,
+      "goal_x": -27.5,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_05",
+      "goal_id": "goal_189",
+      "shelf_x": -25.6,
+      "shelf_y": -12.0,
+      "goal_x": -25.6,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_05",
+      "goal_id": "goal_190",
+      "shelf_x": -25.6,
+      "shelf_y": -11.2,
+      "goal_x": -25.6,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_06",
+      "goal_id": "goal_191",
+      "shelf_x": -23.7,
+      "shelf_y": -12.0,
+      "goal_x": -23.7,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_06",
+      "goal_id": "goal_192",
+      "shelf_x": -23.7,
+      "shelf_y": -11.2,
+      "goal_x": -23.7,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_07",
+      "goal_id": "goal_193",
+      "shelf_x": -21.8,
+      "shelf_y": -12.0,
+      "goal_x": -21.8,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_07",
+      "goal_id": "goal_194",
+      "shelf_x": -21.8,
+      "shelf_y": -11.2,
+      "goal_x": -21.8,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_08",
+      "goal_id": "goal_195",
+      "shelf_x": -19.9,
+      "shelf_y": -12.0,
+      "goal_x": -19.9,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_08",
+      "goal_id": "goal_196",
+      "shelf_x": -19.9,
+      "shelf_y": -11.2,
+      "goal_x": -19.9,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_09",
+      "goal_id": "goal_197",
+      "shelf_x": -18.0,
+      "shelf_y": -12.0,
+      "goal_x": -18.0,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_09",
+      "goal_id": "goal_198",
+      "shelf_x": -18.0,
+      "shelf_y": -11.2,
+      "goal_x": -18.0,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_10",
+      "goal_id": "goal_199",
+      "shelf_x": -16.1,
+      "shelf_y": -12.0,
+      "goal_x": -16.1,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_10",
+      "goal_id": "goal_200",
+      "shelf_x": -16.1,
+      "shelf_y": -11.2,
+      "goal_x": -16.1,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_11",
+      "goal_id": "goal_201",
+      "shelf_x": -14.2,
+      "shelf_y": -12.0,
+      "goal_x": -14.2,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_11",
+      "goal_id": "goal_202",
+      "shelf_x": -14.2,
+      "shelf_y": -11.2,
+      "goal_x": -14.2,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_LS_12",
+      "goal_id": "goal_203",
+      "shelf_x": -12.3,
+      "shelf_y": -12.0,
+      "goal_x": -12.3,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_LN_12",
+      "goal_id": "goal_204",
+      "shelf_x": -12.3,
+      "shelf_y": -11.2,
+      "goal_x": -12.3,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_01",
+      "goal_id": "goal_205",
+      "shelf_x": 12.3,
+      "shelf_y": -12.0,
+      "goal_x": 12.3,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_01",
+      "goal_id": "goal_206",
+      "shelf_x": 12.3,
+      "shelf_y": -11.2,
+      "goal_x": 12.3,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_02",
+      "goal_id": "goal_207",
+      "shelf_x": 14.2,
+      "shelf_y": -12.0,
+      "goal_x": 14.2,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_02",
+      "goal_id": "goal_208",
+      "shelf_x": 14.2,
+      "shelf_y": -11.2,
+      "goal_x": 14.2,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_03",
+      "goal_id": "goal_209",
+      "shelf_x": 16.1,
+      "shelf_y": -12.0,
+      "goal_x": 16.1,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_03",
+      "goal_id": "goal_210",
+      "shelf_x": 16.1,
+      "shelf_y": -11.2,
+      "goal_x": 16.1,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_04",
+      "goal_id": "goal_211",
+      "shelf_x": 18.0,
+      "shelf_y": -12.0,
+      "goal_x": 18.0,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_04",
+      "goal_id": "goal_212",
+      "shelf_x": 18.0,
+      "shelf_y": -11.2,
+      "goal_x": 18.0,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_05",
+      "goal_id": "goal_213",
+      "shelf_x": 19.9,
+      "shelf_y": -12.0,
+      "goal_x": 19.9,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_05",
+      "goal_id": "goal_214",
+      "shelf_x": 19.9,
+      "shelf_y": -11.2,
+      "goal_x": 19.9,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_06",
+      "goal_id": "goal_215",
+      "shelf_x": 21.8,
+      "shelf_y": -12.0,
+      "goal_x": 21.8,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_06",
+      "goal_id": "goal_216",
+      "shelf_x": 21.8,
+      "shelf_y": -11.2,
+      "goal_x": 21.8,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_07",
+      "goal_id": "goal_217",
+      "shelf_x": 23.7,
+      "shelf_y": -12.0,
+      "goal_x": 23.7,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_07",
+      "goal_id": "goal_218",
+      "shelf_x": 23.7,
+      "shelf_y": -11.2,
+      "goal_x": 23.7,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_08",
+      "goal_id": "goal_219",
+      "shelf_x": 25.6,
+      "shelf_y": -12.0,
+      "goal_x": 25.6,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_08",
+      "goal_id": "goal_220",
+      "shelf_x": 25.6,
+      "shelf_y": -11.2,
+      "goal_x": 25.6,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_09",
+      "goal_id": "goal_221",
+      "shelf_x": 27.5,
+      "shelf_y": -12.0,
+      "goal_x": 27.5,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_09",
+      "goal_id": "goal_222",
+      "shelf_x": 27.5,
+      "shelf_y": -11.2,
+      "goal_x": 27.5,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_10",
+      "goal_id": "goal_223",
+      "shelf_x": 29.4,
+      "shelf_y": -12.0,
+      "goal_x": 29.4,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_10",
+      "goal_id": "goal_224",
+      "shelf_x": 29.4,
+      "shelf_y": -11.2,
+      "goal_x": 29.4,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_11",
+      "goal_id": "goal_225",
+      "shelf_x": 31.3,
+      "shelf_y": -12.0,
+      "goal_x": 31.3,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_11",
+      "goal_id": "goal_226",
+      "shelf_x": 31.3,
+      "shelf_y": -11.2,
+      "goal_x": 31.3,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M04_RS_12",
+      "goal_id": "goal_227",
+      "shelf_x": 33.2,
+      "shelf_y": -12.0,
+      "goal_x": 33.2,
+      "goal_y": -12.7
+    },
+    {
+      "id": "M04_RN_12",
+      "goal_id": "goal_228",
+      "shelf_x": 33.2,
+      "shelf_y": -11.2,
+      "goal_x": 33.2,
+      "goal_y": -10.5
+    },
+    {
+      "id": "M05_LS_01",
+      "goal_id": "goal_229",
+      "shelf_x": -33.2,
+      "shelf_y": -4.4,
+      "goal_x": -33.2,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_01",
+      "goal_id": "goal_230",
+      "shelf_x": -33.2,
+      "shelf_y": -3.6,
+      "goal_x": -33.2,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_02",
+      "goal_id": "goal_231",
+      "shelf_x": -31.3,
+      "shelf_y": -4.4,
+      "goal_x": -31.3,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_02",
+      "goal_id": "goal_232",
+      "shelf_x": -31.3,
+      "shelf_y": -3.6,
+      "goal_x": -31.3,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_03",
+      "goal_id": "goal_233",
+      "shelf_x": -29.4,
+      "shelf_y": -4.4,
+      "goal_x": -29.4,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_03",
+      "goal_id": "goal_234",
+      "shelf_x": -29.4,
+      "shelf_y": -3.6,
+      "goal_x": -29.4,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_04",
+      "goal_id": "goal_235",
+      "shelf_x": -27.5,
+      "shelf_y": -4.4,
+      "goal_x": -27.5,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_04",
+      "goal_id": "goal_236",
+      "shelf_x": -27.5,
+      "shelf_y": -3.6,
+      "goal_x": -27.5,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_05",
+      "goal_id": "goal_237",
+      "shelf_x": -25.6,
+      "shelf_y": -4.4,
+      "goal_x": -25.6,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_05",
+      "goal_id": "goal_238",
+      "shelf_x": -25.6,
+      "shelf_y": -3.6,
+      "goal_x": -25.6,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_06",
+      "goal_id": "goal_239",
+      "shelf_x": -23.7,
+      "shelf_y": -4.4,
+      "goal_x": -23.7,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_06",
+      "goal_id": "goal_240",
+      "shelf_x": -23.7,
+      "shelf_y": -3.6,
+      "goal_x": -23.7,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_07",
+      "goal_id": "goal_241",
+      "shelf_x": -21.8,
+      "shelf_y": -4.4,
+      "goal_x": -21.8,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_07",
+      "goal_id": "goal_242",
+      "shelf_x": -21.8,
+      "shelf_y": -3.6,
+      "goal_x": -21.8,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_08",
+      "goal_id": "goal_243",
+      "shelf_x": -19.9,
+      "shelf_y": -4.4,
+      "goal_x": -19.9,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_08",
+      "goal_id": "goal_244",
+      "shelf_x": -19.9,
+      "shelf_y": -3.6,
+      "goal_x": -19.9,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_09",
+      "goal_id": "goal_245",
+      "shelf_x": -18.0,
+      "shelf_y": -4.4,
+      "goal_x": -18.0,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_09",
+      "goal_id": "goal_246",
+      "shelf_x": -18.0,
+      "shelf_y": -3.6,
+      "goal_x": -18.0,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_10",
+      "goal_id": "goal_247",
+      "shelf_x": -16.1,
+      "shelf_y": -4.4,
+      "goal_x": -16.1,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_10",
+      "goal_id": "goal_248",
+      "shelf_x": -16.1,
+      "shelf_y": -3.6,
+      "goal_x": -16.1,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_11",
+      "goal_id": "goal_249",
+      "shelf_x": -14.2,
+      "shelf_y": -4.4,
+      "goal_x": -14.2,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_11",
+      "goal_id": "goal_250",
+      "shelf_x": -14.2,
+      "shelf_y": -3.6,
+      "goal_x": -14.2,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_LS_12",
+      "goal_id": "goal_251",
+      "shelf_x": -12.3,
+      "shelf_y": -4.4,
+      "goal_x": -12.3,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_LN_12",
+      "goal_id": "goal_252",
+      "shelf_x": -12.3,
+      "shelf_y": -3.6,
+      "goal_x": -12.3,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_01",
+      "goal_id": "goal_253",
+      "shelf_x": 12.3,
+      "shelf_y": -4.4,
+      "goal_x": 12.3,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_01",
+      "goal_id": "goal_254",
+      "shelf_x": 12.3,
+      "shelf_y": -3.6,
+      "goal_x": 12.3,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_02",
+      "goal_id": "goal_255",
+      "shelf_x": 14.2,
+      "shelf_y": -4.4,
+      "goal_x": 14.2,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_02",
+      "goal_id": "goal_256",
+      "shelf_x": 14.2,
+      "shelf_y": -3.6,
+      "goal_x": 14.2,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_03",
+      "goal_id": "goal_257",
+      "shelf_x": 16.1,
+      "shelf_y": -4.4,
+      "goal_x": 16.1,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_03",
+      "goal_id": "goal_258",
+      "shelf_x": 16.1,
+      "shelf_y": -3.6,
+      "goal_x": 16.1,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_04",
+      "goal_id": "goal_259",
+      "shelf_x": 18.0,
+      "shelf_y": -4.4,
+      "goal_x": 18.0,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_04",
+      "goal_id": "goal_260",
+      "shelf_x": 18.0,
+      "shelf_y": -3.6,
+      "goal_x": 18.0,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_05",
+      "goal_id": "goal_261",
+      "shelf_x": 19.9,
+      "shelf_y": -4.4,
+      "goal_x": 19.9,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_05",
+      "goal_id": "goal_262",
+      "shelf_x": 19.9,
+      "shelf_y": -3.6,
+      "goal_x": 19.9,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_06",
+      "goal_id": "goal_263",
+      "shelf_x": 21.8,
+      "shelf_y": -4.4,
+      "goal_x": 21.8,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_06",
+      "goal_id": "goal_264",
+      "shelf_x": 21.8,
+      "shelf_y": -3.6,
+      "goal_x": 21.8,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_07",
+      "goal_id": "goal_265",
+      "shelf_x": 23.7,
+      "shelf_y": -4.4,
+      "goal_x": 23.7,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_07",
+      "goal_id": "goal_266",
+      "shelf_x": 23.7,
+      "shelf_y": -3.6,
+      "goal_x": 23.7,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_08",
+      "goal_id": "goal_267",
+      "shelf_x": 25.6,
+      "shelf_y": -4.4,
+      "goal_x": 25.6,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_08",
+      "goal_id": "goal_268",
+      "shelf_x": 25.6,
+      "shelf_y": -3.6,
+      "goal_x": 25.6,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_09",
+      "goal_id": "goal_269",
+      "shelf_x": 27.5,
+      "shelf_y": -4.4,
+      "goal_x": 27.5,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_09",
+      "goal_id": "goal_270",
+      "shelf_x": 27.5,
+      "shelf_y": -3.6,
+      "goal_x": 27.5,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_10",
+      "goal_id": "goal_271",
+      "shelf_x": 29.4,
+      "shelf_y": -4.4,
+      "goal_x": 29.4,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_10",
+      "goal_id": "goal_272",
+      "shelf_x": 29.4,
+      "shelf_y": -3.6,
+      "goal_x": 29.4,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_11",
+      "goal_id": "goal_273",
+      "shelf_x": 31.3,
+      "shelf_y": -4.4,
+      "goal_x": 31.3,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_11",
+      "goal_id": "goal_274",
+      "shelf_x": 31.3,
+      "shelf_y": -3.6,
+      "goal_x": 31.3,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M05_RS_12",
+      "goal_id": "goal_275",
+      "shelf_x": 33.2,
+      "shelf_y": -4.4,
+      "goal_x": 33.2,
+      "goal_y": -5.1
+    },
+    {
+      "id": "M05_RN_12",
+      "goal_id": "goal_276",
+      "shelf_x": 33.2,
+      "shelf_y": -3.6,
+      "goal_x": 33.2,
+      "goal_y": -2.9
+    },
+    {
+      "id": "M06_LS_01",
+      "goal_id": "goal_277",
+      "shelf_x": -33.2,
+      "shelf_y": 3.2,
+      "goal_x": -33.2,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_01",
+      "goal_id": "goal_278",
+      "shelf_x": -33.2,
+      "shelf_y": 4.0,
+      "goal_x": -33.2,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_02",
+      "goal_id": "goal_279",
+      "shelf_x": -31.3,
+      "shelf_y": 3.2,
+      "goal_x": -31.3,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_02",
+      "goal_id": "goal_280",
+      "shelf_x": -31.3,
+      "shelf_y": 4.0,
+      "goal_x": -31.3,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_03",
+      "goal_id": "goal_281",
+      "shelf_x": -29.4,
+      "shelf_y": 3.2,
+      "goal_x": -29.4,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_03",
+      "goal_id": "goal_282",
+      "shelf_x": -29.4,
+      "shelf_y": 4.0,
+      "goal_x": -29.4,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_04",
+      "goal_id": "goal_283",
+      "shelf_x": -27.5,
+      "shelf_y": 3.2,
+      "goal_x": -27.5,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_04",
+      "goal_id": "goal_284",
+      "shelf_x": -27.5,
+      "shelf_y": 4.0,
+      "goal_x": -27.5,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_05",
+      "goal_id": "goal_285",
+      "shelf_x": -25.6,
+      "shelf_y": 3.2,
+      "goal_x": -25.6,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_05",
+      "goal_id": "goal_286",
+      "shelf_x": -25.6,
+      "shelf_y": 4.0,
+      "goal_x": -25.6,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_06",
+      "goal_id": "goal_287",
+      "shelf_x": -23.7,
+      "shelf_y": 3.2,
+      "goal_x": -23.7,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_06",
+      "goal_id": "goal_288",
+      "shelf_x": -23.7,
+      "shelf_y": 4.0,
+      "goal_x": -23.7,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_07",
+      "goal_id": "goal_289",
+      "shelf_x": -21.8,
+      "shelf_y": 3.2,
+      "goal_x": -21.8,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_07",
+      "goal_id": "goal_290",
+      "shelf_x": -21.8,
+      "shelf_y": 4.0,
+      "goal_x": -21.8,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_08",
+      "goal_id": "goal_291",
+      "shelf_x": -19.9,
+      "shelf_y": 3.2,
+      "goal_x": -19.9,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_08",
+      "goal_id": "goal_292",
+      "shelf_x": -19.9,
+      "shelf_y": 4.0,
+      "goal_x": -19.9,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_09",
+      "goal_id": "goal_293",
+      "shelf_x": -18.0,
+      "shelf_y": 3.2,
+      "goal_x": -18.0,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_09",
+      "goal_id": "goal_294",
+      "shelf_x": -18.0,
+      "shelf_y": 4.0,
+      "goal_x": -18.0,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_10",
+      "goal_id": "goal_295",
+      "shelf_x": -16.1,
+      "shelf_y": 3.2,
+      "goal_x": -16.1,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_10",
+      "goal_id": "goal_296",
+      "shelf_x": -16.1,
+      "shelf_y": 4.0,
+      "goal_x": -16.1,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_11",
+      "goal_id": "goal_297",
+      "shelf_x": -14.2,
+      "shelf_y": 3.2,
+      "goal_x": -14.2,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_11",
+      "goal_id": "goal_298",
+      "shelf_x": -14.2,
+      "shelf_y": 4.0,
+      "goal_x": -14.2,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_LS_12",
+      "goal_id": "goal_299",
+      "shelf_x": -12.3,
+      "shelf_y": 3.2,
+      "goal_x": -12.3,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_LN_12",
+      "goal_id": "goal_300",
+      "shelf_x": -12.3,
+      "shelf_y": 4.0,
+      "goal_x": -12.3,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_01",
+      "goal_id": "goal_301",
+      "shelf_x": 12.3,
+      "shelf_y": 3.2,
+      "goal_x": 12.3,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_01",
+      "goal_id": "goal_302",
+      "shelf_x": 12.3,
+      "shelf_y": 4.0,
+      "goal_x": 12.3,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_02",
+      "goal_id": "goal_303",
+      "shelf_x": 14.2,
+      "shelf_y": 3.2,
+      "goal_x": 14.2,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_02",
+      "goal_id": "goal_304",
+      "shelf_x": 14.2,
+      "shelf_y": 4.0,
+      "goal_x": 14.2,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_03",
+      "goal_id": "goal_305",
+      "shelf_x": 16.1,
+      "shelf_y": 3.2,
+      "goal_x": 16.1,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_03",
+      "goal_id": "goal_306",
+      "shelf_x": 16.1,
+      "shelf_y": 4.0,
+      "goal_x": 16.1,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_04",
+      "goal_id": "goal_307",
+      "shelf_x": 18.0,
+      "shelf_y": 3.2,
+      "goal_x": 18.0,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_04",
+      "goal_id": "goal_308",
+      "shelf_x": 18.0,
+      "shelf_y": 4.0,
+      "goal_x": 18.0,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_05",
+      "goal_id": "goal_309",
+      "shelf_x": 19.9,
+      "shelf_y": 3.2,
+      "goal_x": 19.9,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_05",
+      "goal_id": "goal_310",
+      "shelf_x": 19.9,
+      "shelf_y": 4.0,
+      "goal_x": 19.9,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_06",
+      "goal_id": "goal_311",
+      "shelf_x": 21.8,
+      "shelf_y": 3.2,
+      "goal_x": 21.8,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_06",
+      "goal_id": "goal_312",
+      "shelf_x": 21.8,
+      "shelf_y": 4.0,
+      "goal_x": 21.8,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_07",
+      "goal_id": "goal_313",
+      "shelf_x": 23.7,
+      "shelf_y": 3.2,
+      "goal_x": 23.7,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_07",
+      "goal_id": "goal_314",
+      "shelf_x": 23.7,
+      "shelf_y": 4.0,
+      "goal_x": 23.7,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_08",
+      "goal_id": "goal_315",
+      "shelf_x": 25.6,
+      "shelf_y": 3.2,
+      "goal_x": 25.6,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_08",
+      "goal_id": "goal_316",
+      "shelf_x": 25.6,
+      "shelf_y": 4.0,
+      "goal_x": 25.6,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_09",
+      "goal_id": "goal_317",
+      "shelf_x": 27.5,
+      "shelf_y": 3.2,
+      "goal_x": 27.5,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_09",
+      "goal_id": "goal_318",
+      "shelf_x": 27.5,
+      "shelf_y": 4.0,
+      "goal_x": 27.5,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_10",
+      "goal_id": "goal_319",
+      "shelf_x": 29.4,
+      "shelf_y": 3.2,
+      "goal_x": 29.4,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_10",
+      "goal_id": "goal_320",
+      "shelf_x": 29.4,
+      "shelf_y": 4.0,
+      "goal_x": 29.4,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_11",
+      "goal_id": "goal_321",
+      "shelf_x": 31.3,
+      "shelf_y": 3.2,
+      "goal_x": 31.3,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_11",
+      "goal_id": "goal_322",
+      "shelf_x": 31.3,
+      "shelf_y": 4.0,
+      "goal_x": 31.3,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M06_RS_12",
+      "goal_id": "goal_323",
+      "shelf_x": 33.2,
+      "shelf_y": 3.2,
+      "goal_x": 33.2,
+      "goal_y": 2.5
+    },
+    {
+      "id": "M06_RN_12",
+      "goal_id": "goal_324",
+      "shelf_x": 33.2,
+      "shelf_y": 4.0,
+      "goal_x": 33.2,
+      "goal_y": 4.7
+    },
+    {
+      "id": "M07_LS_01",
+      "goal_id": "goal_325",
+      "shelf_x": -33.2,
+      "shelf_y": 10.8,
+      "goal_x": -33.2,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_01",
+      "goal_id": "goal_326",
+      "shelf_x": -33.2,
+      "shelf_y": 11.6,
+      "goal_x": -33.2,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_02",
+      "goal_id": "goal_327",
+      "shelf_x": -31.3,
+      "shelf_y": 10.8,
+      "goal_x": -31.3,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_02",
+      "goal_id": "goal_328",
+      "shelf_x": -31.3,
+      "shelf_y": 11.6,
+      "goal_x": -31.3,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_03",
+      "goal_id": "goal_329",
+      "shelf_x": -29.4,
+      "shelf_y": 10.8,
+      "goal_x": -29.4,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_03",
+      "goal_id": "goal_330",
+      "shelf_x": -29.4,
+      "shelf_y": 11.6,
+      "goal_x": -29.4,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_04",
+      "goal_id": "goal_331",
+      "shelf_x": -27.5,
+      "shelf_y": 10.8,
+      "goal_x": -27.5,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_04",
+      "goal_id": "goal_332",
+      "shelf_x": -27.5,
+      "shelf_y": 11.6,
+      "goal_x": -27.5,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_05",
+      "goal_id": "goal_333",
+      "shelf_x": -25.6,
+      "shelf_y": 10.8,
+      "goal_x": -25.6,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_05",
+      "goal_id": "goal_334",
+      "shelf_x": -25.6,
+      "shelf_y": 11.6,
+      "goal_x": -25.6,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_06",
+      "goal_id": "goal_335",
+      "shelf_x": -23.7,
+      "shelf_y": 10.8,
+      "goal_x": -23.7,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_06",
+      "goal_id": "goal_336",
+      "shelf_x": -23.7,
+      "shelf_y": 11.6,
+      "goal_x": -23.7,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_07",
+      "goal_id": "goal_337",
+      "shelf_x": -21.8,
+      "shelf_y": 10.8,
+      "goal_x": -21.8,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_07",
+      "goal_id": "goal_338",
+      "shelf_x": -21.8,
+      "shelf_y": 11.6,
+      "goal_x": -21.8,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_08",
+      "goal_id": "goal_339",
+      "shelf_x": -19.9,
+      "shelf_y": 10.8,
+      "goal_x": -19.9,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_08",
+      "goal_id": "goal_340",
+      "shelf_x": -19.9,
+      "shelf_y": 11.6,
+      "goal_x": -19.9,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_09",
+      "goal_id": "goal_341",
+      "shelf_x": -18.0,
+      "shelf_y": 10.8,
+      "goal_x": -18.0,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_09",
+      "goal_id": "goal_342",
+      "shelf_x": -18.0,
+      "shelf_y": 11.6,
+      "goal_x": -18.0,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_10",
+      "goal_id": "goal_343",
+      "shelf_x": -16.1,
+      "shelf_y": 10.8,
+      "goal_x": -16.1,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_10",
+      "goal_id": "goal_344",
+      "shelf_x": -16.1,
+      "shelf_y": 11.6,
+      "goal_x": -16.1,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_11",
+      "goal_id": "goal_345",
+      "shelf_x": -14.2,
+      "shelf_y": 10.8,
+      "goal_x": -14.2,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_11",
+      "goal_id": "goal_346",
+      "shelf_x": -14.2,
+      "shelf_y": 11.6,
+      "goal_x": -14.2,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_LS_12",
+      "goal_id": "goal_347",
+      "shelf_x": -12.3,
+      "shelf_y": 10.8,
+      "goal_x": -12.3,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_LN_12",
+      "goal_id": "goal_348",
+      "shelf_x": -12.3,
+      "shelf_y": 11.6,
+      "goal_x": -12.3,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_01",
+      "goal_id": "goal_349",
+      "shelf_x": 12.3,
+      "shelf_y": 10.8,
+      "goal_x": 12.3,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_01",
+      "goal_id": "goal_350",
+      "shelf_x": 12.3,
+      "shelf_y": 11.6,
+      "goal_x": 12.3,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_02",
+      "goal_id": "goal_351",
+      "shelf_x": 14.2,
+      "shelf_y": 10.8,
+      "goal_x": 14.2,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_02",
+      "goal_id": "goal_352",
+      "shelf_x": 14.2,
+      "shelf_y": 11.6,
+      "goal_x": 14.2,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_03",
+      "goal_id": "goal_353",
+      "shelf_x": 16.1,
+      "shelf_y": 10.8,
+      "goal_x": 16.1,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_03",
+      "goal_id": "goal_354",
+      "shelf_x": 16.1,
+      "shelf_y": 11.6,
+      "goal_x": 16.1,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_04",
+      "goal_id": "goal_355",
+      "shelf_x": 18.0,
+      "shelf_y": 10.8,
+      "goal_x": 18.0,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_04",
+      "goal_id": "goal_356",
+      "shelf_x": 18.0,
+      "shelf_y": 11.6,
+      "goal_x": 18.0,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_05",
+      "goal_id": "goal_357",
+      "shelf_x": 19.9,
+      "shelf_y": 10.8,
+      "goal_x": 19.9,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_05",
+      "goal_id": "goal_358",
+      "shelf_x": 19.9,
+      "shelf_y": 11.6,
+      "goal_x": 19.9,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_06",
+      "goal_id": "goal_359",
+      "shelf_x": 21.8,
+      "shelf_y": 10.8,
+      "goal_x": 21.8,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_06",
+      "goal_id": "goal_360",
+      "shelf_x": 21.8,
+      "shelf_y": 11.6,
+      "goal_x": 21.8,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_07",
+      "goal_id": "goal_361",
+      "shelf_x": 23.7,
+      "shelf_y": 10.8,
+      "goal_x": 23.7,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_07",
+      "goal_id": "goal_362",
+      "shelf_x": 23.7,
+      "shelf_y": 11.6,
+      "goal_x": 23.7,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_08",
+      "goal_id": "goal_363",
+      "shelf_x": 25.6,
+      "shelf_y": 10.8,
+      "goal_x": 25.6,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_08",
+      "goal_id": "goal_364",
+      "shelf_x": 25.6,
+      "shelf_y": 11.6,
+      "goal_x": 25.6,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_09",
+      "goal_id": "goal_365",
+      "shelf_x": 27.5,
+      "shelf_y": 10.8,
+      "goal_x": 27.5,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_09",
+      "goal_id": "goal_366",
+      "shelf_x": 27.5,
+      "shelf_y": 11.6,
+      "goal_x": 27.5,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_10",
+      "goal_id": "goal_367",
+      "shelf_x": 29.4,
+      "shelf_y": 10.8,
+      "goal_x": 29.4,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_10",
+      "goal_id": "goal_368",
+      "shelf_x": 29.4,
+      "shelf_y": 11.6,
+      "goal_x": 29.4,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_11",
+      "goal_id": "goal_369",
+      "shelf_x": 31.3,
+      "shelf_y": 10.8,
+      "goal_x": 31.3,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_11",
+      "goal_id": "goal_370",
+      "shelf_x": 31.3,
+      "shelf_y": 11.6,
+      "goal_x": 31.3,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M07_RS_12",
+      "goal_id": "goal_371",
+      "shelf_x": 33.2,
+      "shelf_y": 10.8,
+      "goal_x": 33.2,
+      "goal_y": 10.1
+    },
+    {
+      "id": "M07_RN_12",
+      "goal_id": "goal_372",
+      "shelf_x": 33.2,
+      "shelf_y": 11.6,
+      "goal_x": 33.2,
+      "goal_y": 12.3
+    },
+    {
+      "id": "M08_LS_01",
+      "goal_id": "goal_373",
+      "shelf_x": -33.2,
+      "shelf_y": 18.4,
+      "goal_x": -33.2,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_01",
+      "goal_id": "goal_374",
+      "shelf_x": -33.2,
+      "shelf_y": 19.2,
+      "goal_x": -33.2,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_02",
+      "goal_id": "goal_375",
+      "shelf_x": -31.3,
+      "shelf_y": 18.4,
+      "goal_x": -31.3,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_02",
+      "goal_id": "goal_376",
+      "shelf_x": -31.3,
+      "shelf_y": 19.2,
+      "goal_x": -31.3,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_03",
+      "goal_id": "goal_377",
+      "shelf_x": -29.4,
+      "shelf_y": 18.4,
+      "goal_x": -29.4,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_03",
+      "goal_id": "goal_378",
+      "shelf_x": -29.4,
+      "shelf_y": 19.2,
+      "goal_x": -29.4,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_04",
+      "goal_id": "goal_379",
+      "shelf_x": -27.5,
+      "shelf_y": 18.4,
+      "goal_x": -27.5,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_04",
+      "goal_id": "goal_380",
+      "shelf_x": -27.5,
+      "shelf_y": 19.2,
+      "goal_x": -27.5,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_05",
+      "goal_id": "goal_381",
+      "shelf_x": -25.6,
+      "shelf_y": 18.4,
+      "goal_x": -25.6,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_05",
+      "goal_id": "goal_382",
+      "shelf_x": -25.6,
+      "shelf_y": 19.2,
+      "goal_x": -25.6,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_06",
+      "goal_id": "goal_383",
+      "shelf_x": -23.7,
+      "shelf_y": 18.4,
+      "goal_x": -23.7,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_06",
+      "goal_id": "goal_384",
+      "shelf_x": -23.7,
+      "shelf_y": 19.2,
+      "goal_x": -23.7,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_07",
+      "goal_id": "goal_385",
+      "shelf_x": -21.8,
+      "shelf_y": 18.4,
+      "goal_x": -21.8,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_07",
+      "goal_id": "goal_386",
+      "shelf_x": -21.8,
+      "shelf_y": 19.2,
+      "goal_x": -21.8,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_08",
+      "goal_id": "goal_387",
+      "shelf_x": -19.9,
+      "shelf_y": 18.4,
+      "goal_x": -19.9,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_08",
+      "goal_id": "goal_388",
+      "shelf_x": -19.9,
+      "shelf_y": 19.2,
+      "goal_x": -19.9,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_09",
+      "goal_id": "goal_389",
+      "shelf_x": -18.0,
+      "shelf_y": 18.4,
+      "goal_x": -18.0,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_09",
+      "goal_id": "goal_390",
+      "shelf_x": -18.0,
+      "shelf_y": 19.2,
+      "goal_x": -18.0,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_10",
+      "goal_id": "goal_391",
+      "shelf_x": -16.1,
+      "shelf_y": 18.4,
+      "goal_x": -16.1,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_10",
+      "goal_id": "goal_392",
+      "shelf_x": -16.1,
+      "shelf_y": 19.2,
+      "goal_x": -16.1,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_11",
+      "goal_id": "goal_393",
+      "shelf_x": -14.2,
+      "shelf_y": 18.4,
+      "goal_x": -14.2,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_11",
+      "goal_id": "goal_394",
+      "shelf_x": -14.2,
+      "shelf_y": 19.2,
+      "goal_x": -14.2,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_LS_12",
+      "goal_id": "goal_395",
+      "shelf_x": -12.3,
+      "shelf_y": 18.4,
+      "goal_x": -12.3,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_LN_12",
+      "goal_id": "goal_396",
+      "shelf_x": -12.3,
+      "shelf_y": 19.2,
+      "goal_x": -12.3,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_01",
+      "goal_id": "goal_397",
+      "shelf_x": 12.3,
+      "shelf_y": 18.4,
+      "goal_x": 12.3,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_01",
+      "goal_id": "goal_398",
+      "shelf_x": 12.3,
+      "shelf_y": 19.2,
+      "goal_x": 12.3,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_02",
+      "goal_id": "goal_399",
+      "shelf_x": 14.2,
+      "shelf_y": 18.4,
+      "goal_x": 14.2,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_02",
+      "goal_id": "goal_400",
+      "shelf_x": 14.2,
+      "shelf_y": 19.2,
+      "goal_x": 14.2,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_03",
+      "goal_id": "goal_401",
+      "shelf_x": 16.1,
+      "shelf_y": 18.4,
+      "goal_x": 16.1,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_03",
+      "goal_id": "goal_402",
+      "shelf_x": 16.1,
+      "shelf_y": 19.2,
+      "goal_x": 16.1,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_04",
+      "goal_id": "goal_403",
+      "shelf_x": 18.0,
+      "shelf_y": 18.4,
+      "goal_x": 18.0,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_04",
+      "goal_id": "goal_404",
+      "shelf_x": 18.0,
+      "shelf_y": 19.2,
+      "goal_x": 18.0,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_05",
+      "goal_id": "goal_405",
+      "shelf_x": 19.9,
+      "shelf_y": 18.4,
+      "goal_x": 19.9,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_05",
+      "goal_id": "goal_406",
+      "shelf_x": 19.9,
+      "shelf_y": 19.2,
+      "goal_x": 19.9,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_06",
+      "goal_id": "goal_407",
+      "shelf_x": 21.8,
+      "shelf_y": 18.4,
+      "goal_x": 21.8,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_06",
+      "goal_id": "goal_408",
+      "shelf_x": 21.8,
+      "shelf_y": 19.2,
+      "goal_x": 21.8,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_07",
+      "goal_id": "goal_409",
+      "shelf_x": 23.7,
+      "shelf_y": 18.4,
+      "goal_x": 23.7,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_07",
+      "goal_id": "goal_410",
+      "shelf_x": 23.7,
+      "shelf_y": 19.2,
+      "goal_x": 23.7,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_08",
+      "goal_id": "goal_411",
+      "shelf_x": 25.6,
+      "shelf_y": 18.4,
+      "goal_x": 25.6,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_08",
+      "goal_id": "goal_412",
+      "shelf_x": 25.6,
+      "shelf_y": 19.2,
+      "goal_x": 25.6,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_09",
+      "goal_id": "goal_413",
+      "shelf_x": 27.5,
+      "shelf_y": 18.4,
+      "goal_x": 27.5,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_09",
+      "goal_id": "goal_414",
+      "shelf_x": 27.5,
+      "shelf_y": 19.2,
+      "goal_x": 27.5,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_10",
+      "goal_id": "goal_415",
+      "shelf_x": 29.4,
+      "shelf_y": 18.4,
+      "goal_x": 29.4,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_10",
+      "goal_id": "goal_416",
+      "shelf_x": 29.4,
+      "shelf_y": 19.2,
+      "goal_x": 29.4,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_11",
+      "goal_id": "goal_417",
+      "shelf_x": 31.3,
+      "shelf_y": 18.4,
+      "goal_x": 31.3,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_11",
+      "goal_id": "goal_418",
+      "shelf_x": 31.3,
+      "shelf_y": 19.2,
+      "goal_x": 31.3,
+      "goal_y": 19.9
+    },
+    {
+      "id": "M08_RS_12",
+      "goal_id": "goal_419",
+      "shelf_x": 33.2,
+      "shelf_y": 18.4,
+      "goal_x": 33.2,
+      "goal_y": 17.7
+    },
+    {
+      "id": "M08_RN_12",
+      "goal_id": "goal_420",
+      "shelf_x": 33.2,
+      "shelf_y": 19.2,
+      "goal_x": 33.2,
+      "goal_y": 19.9
+    },
+    {
+      "id": "S01_LS_01",
+      "goal_id": "goal_421",
+      "shelf_x": -33.2,
+      "shelf_y": 26.0,
+      "goal_x": -33.2,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_01",
+      "goal_id": "goal_422",
+      "shelf_x": -33.2,
+      "shelf_y": 26.8,
+      "goal_x": -33.2,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_LS_02",
+      "goal_id": "goal_423",
+      "shelf_x": -31.3,
+      "shelf_y": 26.0,
+      "goal_x": -31.3,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_02",
+      "goal_id": "goal_424",
+      "shelf_x": -31.3,
+      "shelf_y": 26.8,
+      "goal_x": -31.3,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_LS_03",
+      "goal_id": "goal_425",
+      "shelf_x": -29.4,
+      "shelf_y": 26.0,
+      "goal_x": -29.4,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_03",
+      "goal_id": "goal_426",
+      "shelf_x": -29.4,
+      "shelf_y": 26.8,
+      "goal_x": -29.4,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_LS_04",
+      "goal_id": "goal_427",
+      "shelf_x": -27.5,
+      "shelf_y": 26.0,
+      "goal_x": -27.5,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_04",
+      "goal_id": "goal_428",
+      "shelf_x": -27.5,
+      "shelf_y": 26.8,
+      "goal_x": -27.5,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_LS_05",
+      "goal_id": "goal_429",
+      "shelf_x": -25.6,
+      "shelf_y": 26.0,
+      "goal_x": -25.6,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_05",
+      "goal_id": "goal_430",
+      "shelf_x": -25.6,
+      "shelf_y": 26.8,
+      "goal_x": -25.6,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_LS_06",
+      "goal_id": "goal_431",
+      "shelf_x": -23.7,
+      "shelf_y": 26.0,
+      "goal_x": -23.7,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_LN_06",
+      "goal_id": "goal_432",
+      "shelf_x": -23.7,
+      "shelf_y": 26.8,
+      "goal_x": -23.7,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_01",
+      "goal_id": "goal_433",
+      "shelf_x": 23.7,
+      "shelf_y": 26.0,
+      "goal_x": 23.7,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_01",
+      "goal_id": "goal_434",
+      "shelf_x": 23.7,
+      "shelf_y": 26.8,
+      "goal_x": 23.7,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_02",
+      "goal_id": "goal_435",
+      "shelf_x": 25.6,
+      "shelf_y": 26.0,
+      "goal_x": 25.6,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_02",
+      "goal_id": "goal_436",
+      "shelf_x": 25.6,
+      "shelf_y": 26.8,
+      "goal_x": 25.6,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_03",
+      "goal_id": "goal_437",
+      "shelf_x": 27.5,
+      "shelf_y": 26.0,
+      "goal_x": 27.5,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_03",
+      "goal_id": "goal_438",
+      "shelf_x": 27.5,
+      "shelf_y": 26.8,
+      "goal_x": 27.5,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_04",
+      "goal_id": "goal_439",
+      "shelf_x": 29.4,
+      "shelf_y": 26.0,
+      "goal_x": 29.4,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_04",
+      "goal_id": "goal_440",
+      "shelf_x": 29.4,
+      "shelf_y": 26.8,
+      "goal_x": 29.4,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_05",
+      "goal_id": "goal_441",
+      "shelf_x": 31.3,
+      "shelf_y": 26.0,
+      "goal_x": 31.3,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_05",
+      "goal_id": "goal_442",
+      "shelf_x": 31.3,
+      "shelf_y": 26.8,
+      "goal_x": 31.3,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S01_RS_06",
+      "goal_id": "goal_443",
+      "shelf_x": 33.2,
+      "shelf_y": 26.0,
+      "goal_x": 33.2,
+      "goal_y": 25.3
+    },
+    {
+      "id": "S01_RN_06",
+      "goal_id": "goal_444",
+      "shelf_x": 33.2,
+      "shelf_y": 26.8,
+      "goal_x": 33.2,
+      "goal_y": 27.5
+    },
+    {
+      "id": "S02_LS_01",
+      "goal_id": "goal_445",
+      "shelf_x": -33.2,
+      "shelf_y": 33.6,
+      "goal_x": -33.2,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_01",
+      "goal_id": "goal_446",
+      "shelf_x": -33.2,
+      "shelf_y": 34.4,
+      "goal_x": -33.2,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_LS_02",
+      "goal_id": "goal_447",
+      "shelf_x": -31.3,
+      "shelf_y": 33.6,
+      "goal_x": -31.3,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_02",
+      "goal_id": "goal_448",
+      "shelf_x": -31.3,
+      "shelf_y": 34.4,
+      "goal_x": -31.3,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_LS_03",
+      "goal_id": "goal_449",
+      "shelf_x": -29.4,
+      "shelf_y": 33.6,
+      "goal_x": -29.4,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_03",
+      "goal_id": "goal_450",
+      "shelf_x": -29.4,
+      "shelf_y": 34.4,
+      "goal_x": -29.4,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_LS_04",
+      "goal_id": "goal_451",
+      "shelf_x": -27.5,
+      "shelf_y": 33.6,
+      "goal_x": -27.5,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_04",
+      "goal_id": "goal_452",
+      "shelf_x": -27.5,
+      "shelf_y": 34.4,
+      "goal_x": -27.5,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_LS_05",
+      "goal_id": "goal_453",
+      "shelf_x": -25.6,
+      "shelf_y": 33.6,
+      "goal_x": -25.6,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_05",
+      "goal_id": "goal_454",
+      "shelf_x": -25.6,
+      "shelf_y": 34.4,
+      "goal_x": -25.6,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_LS_06",
+      "goal_id": "goal_455",
+      "shelf_x": -23.7,
+      "shelf_y": 33.6,
+      "goal_x": -23.7,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_LN_06",
+      "goal_id": "goal_456",
+      "shelf_x": -23.7,
+      "shelf_y": 34.4,
+      "goal_x": -23.7,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_01",
+      "goal_id": "goal_457",
+      "shelf_x": 23.7,
+      "shelf_y": 33.6,
+      "goal_x": 23.7,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_01",
+      "goal_id": "goal_458",
+      "shelf_x": 23.7,
+      "shelf_y": 34.4,
+      "goal_x": 23.7,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_02",
+      "goal_id": "goal_459",
+      "shelf_x": 25.6,
+      "shelf_y": 33.6,
+      "goal_x": 25.6,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_02",
+      "goal_id": "goal_460",
+      "shelf_x": 25.6,
+      "shelf_y": 34.4,
+      "goal_x": 25.6,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_03",
+      "goal_id": "goal_461",
+      "shelf_x": 27.5,
+      "shelf_y": 33.6,
+      "goal_x": 27.5,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_03",
+      "goal_id": "goal_462",
+      "shelf_x": 27.5,
+      "shelf_y": 34.4,
+      "goal_x": 27.5,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_04",
+      "goal_id": "goal_463",
+      "shelf_x": 29.4,
+      "shelf_y": 33.6,
+      "goal_x": 29.4,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_04",
+      "goal_id": "goal_464",
+      "shelf_x": 29.4,
+      "shelf_y": 34.4,
+      "goal_x": 29.4,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_05",
+      "goal_id": "goal_465",
+      "shelf_x": 31.3,
+      "shelf_y": 33.6,
+      "goal_x": 31.3,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_05",
+      "goal_id": "goal_466",
+      "shelf_x": 31.3,
+      "shelf_y": 34.4,
+      "goal_x": 31.3,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S02_RS_06",
+      "goal_id": "goal_467",
+      "shelf_x": 33.2,
+      "shelf_y": 33.6,
+      "goal_x": 33.2,
+      "goal_y": 32.9
+    },
+    {
+      "id": "S02_RN_06",
+      "goal_id": "goal_468",
+      "shelf_x": 33.2,
+      "shelf_y": 34.4,
+      "goal_x": 33.2,
+      "goal_y": 35.1
+    },
+    {
+      "id": "S03_LS_01",
+      "goal_id": "goal_469",
+      "shelf_x": -33.2,
+      "shelf_y": 41.2,
+      "goal_x": -33.2,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_01",
+      "goal_id": "goal_470",
+      "shelf_x": -33.2,
+      "shelf_y": 42.0,
+      "goal_x": -33.2,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_LS_02",
+      "goal_id": "goal_471",
+      "shelf_x": -31.3,
+      "shelf_y": 41.2,
+      "goal_x": -31.3,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_02",
+      "goal_id": "goal_472",
+      "shelf_x": -31.3,
+      "shelf_y": 42.0,
+      "goal_x": -31.3,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_LS_03",
+      "goal_id": "goal_473",
+      "shelf_x": -29.4,
+      "shelf_y": 41.2,
+      "goal_x": -29.4,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_03",
+      "goal_id": "goal_474",
+      "shelf_x": -29.4,
+      "shelf_y": 42.0,
+      "goal_x": -29.4,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_LS_04",
+      "goal_id": "goal_475",
+      "shelf_x": -27.5,
+      "shelf_y": 41.2,
+      "goal_x": -27.5,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_04",
+      "goal_id": "goal_476",
+      "shelf_x": -27.5,
+      "shelf_y": 42.0,
+      "goal_x": -27.5,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_LS_05",
+      "goal_id": "goal_477",
+      "shelf_x": -25.6,
+      "shelf_y": 41.2,
+      "goal_x": -25.6,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_05",
+      "goal_id": "goal_478",
+      "shelf_x": -25.6,
+      "shelf_y": 42.0,
+      "goal_x": -25.6,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_LS_06",
+      "goal_id": "goal_479",
+      "shelf_x": -23.7,
+      "shelf_y": 41.2,
+      "goal_x": -23.7,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_LN_06",
+      "goal_id": "goal_480",
+      "shelf_x": -23.7,
+      "shelf_y": 42.0,
+      "goal_x": -23.7,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_01",
+      "goal_id": "goal_481",
+      "shelf_x": 23.7,
+      "shelf_y": 41.2,
+      "goal_x": 23.7,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_01",
+      "goal_id": "goal_482",
+      "shelf_x": 23.7,
+      "shelf_y": 42.0,
+      "goal_x": 23.7,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_02",
+      "goal_id": "goal_483",
+      "shelf_x": 25.6,
+      "shelf_y": 41.2,
+      "goal_x": 25.6,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_02",
+      "goal_id": "goal_484",
+      "shelf_x": 25.6,
+      "shelf_y": 42.0,
+      "goal_x": 25.6,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_03",
+      "goal_id": "goal_485",
+      "shelf_x": 27.5,
+      "shelf_y": 41.2,
+      "goal_x": 27.5,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_03",
+      "goal_id": "goal_486",
+      "shelf_x": 27.5,
+      "shelf_y": 42.0,
+      "goal_x": 27.5,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_04",
+      "goal_id": "goal_487",
+      "shelf_x": 29.4,
+      "shelf_y": 41.2,
+      "goal_x": 29.4,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_04",
+      "goal_id": "goal_488",
+      "shelf_x": 29.4,
+      "shelf_y": 42.0,
+      "goal_x": 29.4,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_05",
+      "goal_id": "goal_489",
+      "shelf_x": 31.3,
+      "shelf_y": 41.2,
+      "goal_x": 31.3,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_05",
+      "goal_id": "goal_490",
+      "shelf_x": 31.3,
+      "shelf_y": 42.0,
+      "goal_x": 31.3,
+      "goal_y": 42.7
+    },
+    {
+      "id": "S03_RS_06",
+      "goal_id": "goal_491",
+      "shelf_x": 33.2,
+      "shelf_y": 41.2,
+      "goal_x": 33.2,
+      "goal_y": 40.5
+    },
+    {
+      "id": "S03_RN_06",
+      "goal_id": "goal_492",
+      "shelf_x": 33.2,
+      "shelf_y": 42.0,
+      "goal_x": 33.2,
+      "goal_y": 42.7
+    }
+  ],
+  "walls": [
+    {
+      "id": "wall_left",
+      "x": -35.0,
+      "y": 0.0,
+      "w": 0.2,
+      "h": 100.0
+    },
+    {
+      "id": "wall_right",
+      "x": 35.0,
+      "y": 0.0,
+      "w": 0.2,
+      "h": 100.0
+    },
+    {
+      "id": "wall_south",
+      "x": 0.0,
+      "y": -50.0,
+      "w": 70.0,
+      "h": 0.2
+    },
+    {
+      "id": "wall_north",
+      "x": 0.0,
+      "y": 50.0,
+      "w": 70.0,
+      "h": 0.2
+    }
+  ]
+}

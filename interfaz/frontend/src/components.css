@@ -1,0 +1,56 @@
+/* ---- buttons ---- */
+.ic-btn { font: 600 13px/1 var(--font-display); text-transform: uppercase; letter-spacing: .04em; padding: 13px 22px; border-radius: var(--radius); border: 2px solid transparent; cursor: pointer; display: inline-flex; align-items: center; justify-content: center; gap: 8px; transition: transform .12s ease, background .12s ease; }
+.ic-btn:active { transform: translateY(1px); }
+.ic-btn:disabled { opacity: .45; cursor: not-allowed; }
+.ic-btn-primary { background: var(--action-primary); color: var(--ink); }
+.ic-btn-primary:hover:not(:disabled) { background: var(--action-primary-hover); }
+.ic-btn-secondary { background: transparent; border-color: var(--ink); color: var(--ink); }
+.ic-btn-secondary:hover:not(:disabled) { background: var(--ink); color: var(--concrete); }
+
+/* ---- chips ---- */
+.ic-chip { font: 600 12px/1 var(--font-mono); text-transform: uppercase; letter-spacing: .03em; padding: 6px 12px; border-radius: 2px; display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; }
+.ic-chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; flex: none; }
+.ic-chip-in-stock { background: rgba(31, 122, 77, .12); color: var(--status-in-stock); }
+.ic-chip-in-stock::before { background: var(--status-in-stock); }
+.ic-chip-low-stock { background: rgba(194, 76, 22, .12); color: var(--status-low-stock); }
+.ic-chip-low-stock::before { background: var(--status-low-stock); }
+.ic-chip-out-of-stock { background: rgba(194, 43, 30, .12); color: var(--status-out-of-stock); }
+.ic-chip-out-of-stock::before { background: var(--status-out-of-stock); }
+
+/* ---- bin-tag product card ---- */
+.ic-bintag { background: var(--surface-card); border: 1px solid var(--border); border-radius: var(--radius); position: relative; overflow: hidden; display: flex; flex-direction: column; text-align: left; padding: 0; font: inherit; color: var(--ink); }
+.ic-bintag:not(:disabled):hover { border-color: var(--ink); }
+.ic-rivet { position: absolute; width: 8px; height: 8px; border-radius: 50%; background: var(--concrete-panel); border: 1px solid var(--border); z-index: 2; }
+.ic-rivet-tl { top: 10px; left: 10px; }
+.ic-rivet-tr { top: 10px; right: 10px; }
+.ic-bintag-status { height: 34px; display: flex; align-items: center; justify-content: center; position: relative; width: 100%; }
+.ic-punch { width: 14px; height: 14px; border-radius: 50%; background: var(--concrete); box-shadow: var(--shadow-punch); }
+.ic-bintag-status-in-stock { background: var(--status-in-stock); }
+.ic-bintag-status-low-stock { background: var(--status-low-stock); }
+.ic-bintag-status-out-of-stock { background: var(--status-out-of-stock); }
+.ic-bintag-body { padding: clamp(18px, 1.4vw, 26px) clamp(16px, 1.3vw, 24px) clamp(12px, 1vw, 18px); width: 100%; flex: 1; display: flex; flex-direction: column; }
+.ic-bintag-sku { font: 500 11px/1 var(--font-mono); letter-spacing: .06em; color: var(--steel); text-transform: uppercase; margin-bottom: 6px; }
+.ic-bintag-title { font: 600 clamp(19px, 1.5vw, 24px)/1.2 var(--font-display); text-transform: uppercase; margin: 0 0 8px; }
+.ic-bintag-desc { font-size: clamp(13.5px, .95vw, 15.5px); color: var(--steel); margin: 0 0 14px; flex: 1; }
+.ic-bintag-specs { font: 400 11.5px/1.6 var(--font-mono); color: var(--steel); display: flex; flex-direction: column; gap: 3px; margin-bottom: 14px; border-top: 1px dashed var(--border); padding-top: 10px; }
+.ic-bintag-specs b { color: var(--ink); font-weight: 600; }
+.ic-bintag-price-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 0; gap: 10px; }
+.ic-bintag-barcode { height: 30px; width: 100%; background: repeating-linear-gradient(90deg, var(--ink) 0px, var(--ink) 2px, transparent 2px, transparent 3px, var(--ink) 3px, var(--ink) 6px, transparent 6px, transparent 8px, var(--ink) 8px, var(--ink) 9px, transparent 9px, transparent 12px); margin-top: 14px; border-top: 1px dashed var(--border); }
+.ic-bintag-barcode-num { font: 400 9px/1 var(--font-mono); letter-spacing: .1em; color: var(--steel); text-align: center; padding: 5px 0 12px; width: 100%; background: var(--surface-card); }
+
+/* ---- alert banner ---- */
+.ic-alert { display: flex; align-items: flex-start; gap: 16px; padding: 16px 20px; background: var(--surface-card); border: 1px solid var(--border); border-left: 8px solid var(--safety-orange); border-radius: var(--radius); }
+.ic-alert-danger { border-left-color: var(--hazard-red); }
+.ic-alert strong { font-family: var(--font-display); text-transform: uppercase; letter-spacing: .02em; }
+.ic-alert-sub { display: block; font-size: 13px; color: var(--steel); margin-top: 2px; }
+.ic-alert-ico { width: 28px; height: 28px; flex: none; border-radius: 50%; background: var(--safety-orange); color: var(--white); display: flex; align-items: center; justify-content: center; font: 700 16px/1 var(--font-display); }
+.ic-alert-danger .ic-alert-ico { background: var(--hazard-red); }
+
+/* ---- filter bar ---- */
+.ic-filterbar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; background: var(--gunmetal-panel); padding: 16px; border-radius: var(--radius); }
+.ic-filterbar input, .ic-filterbar select { font-family: var(--font-mono); font-size: clamp(13px, 1vw, 16px); padding: clamp(10px, 1vw, 16px) clamp(12px, 1vw, 16px); background: var(--gunmetal); border: 1px solid var(--border-dark); color: var(--concrete); border-radius: 2px; }
+.ic-filterbar input::placeholder { color: var(--steel-pale); }
+.ic-filterbar input { flex: 1 1 220px; }
+
+/* ---- hazard strip ---- */
+.ic-hazard-strip { height: 10px; background: repeating-linear-gradient(45deg, var(--gunmetal) 0px, var(--gunmetal) 14px, var(--safety-yellow) 14px, var(--safety-yellow) 28px); }

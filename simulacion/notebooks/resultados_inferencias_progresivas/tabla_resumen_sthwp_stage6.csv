@@ -1,0 +1,2 @@
+n_episodios,n_semillas,exitos,colisiones,truncamientos,tasa_exito_%,ic95_exito_lo,ic95_exito_hi,tasa_colision_%,ic95_colision_lo,ic95_colision_hi,tasa_truncamiento_%,pasos_media,pasos_mediana,pasos_std,reward_media,reward_mediana,reward_std,llego_estanteria_%,llego_entrega_%
+8400,3,7000,1400,0,83.33,82.52,84.12,16.67,15.88,17.48,0.0,2030.8,2022.5,682.3,444.44,495.73,206.52,100.0,83.33

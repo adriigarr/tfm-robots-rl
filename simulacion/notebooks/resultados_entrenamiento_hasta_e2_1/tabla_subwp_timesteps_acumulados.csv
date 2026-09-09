@@ -1,0 +1,8 @@
+fase,timesteps_previstos_fase,timesteps_acumulados_previstos
+stage1,500000,500000
+stage2,4000000,4500000
+stage3_r2,4000000,8500000
+stage4_r2,4000000,12500000
+stage5_r2,2000000,14500000
+e2_0,2000000,16500000
+subwp_e2_1,6000000,22500000

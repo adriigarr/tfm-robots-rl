@@ -1,0 +1,4 @@
+variante,n_episodios,n_semillas,exitos,colisiones,truncamientos,tasa_exito_%,ic95_exito_lo,ic95_exito_hi,tasa_colision_%,ic95_colision_lo,ic95_colision_hi,tasa_truncamiento_%,pasos_media,pasos_mediana,pasos_std,reward_media,reward_mediana,reward_std,llego_estanteria_%,llego_entrega_%
+E2.1,8400,3,6918,1482,0,82.36,81.53,83.16,17.64,16.84,18.47,0.0,2815.4,3120.0,999.8,521.83,621.52,244.91,no registrada,no registrada
+E2.2,8400,3,6578,1822,0,78.31,77.42,79.18,21.69,20.82,22.58,0.0,2754.9,3105.0,1018.9,497.92,614.4,263.44,no registrada,no registrada
+E2.2b,8400,3,5801,2348,251,69.06,68.06,70.04,27.95,27.0,28.92,2.99,2691.9,2700.0,1262.5,402.3,524.9,296.32,no registrada,no registrada

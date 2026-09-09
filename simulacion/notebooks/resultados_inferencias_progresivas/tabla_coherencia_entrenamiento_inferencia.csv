@@ -1,0 +1,19 @@
+arquitectura,fase,exito_entrenamiento_%,exito_inferencia_%,comentario
+STH-WP,stage1,96.1,100.0,diferencia inferencia-entrenamiento = +3.9 pts
+STH-WP,stage2,97.7,100.0,diferencia inferencia-entrenamiento = +2.3 pts
+STH-WP,stage3v2,no disponible,72.2,sin dato de entrenamiento (solo inferencia disponible)
+STH-WP,stage4v2,no disponible,94.0,sin dato de entrenamiento (solo inferencia disponible)
+STH-WP,stage5,96.6,100.0,diferencia inferencia-entrenamiento = +3.4 pts
+STH-WP,stage6,97.1,83.3,diferencia inferencia-entrenamiento = -13.7 pts
+STH-WP,sthwp_e2_1,72.1,88.8,diferencia inferencia-entrenamiento = +16.7 pts
+STH-WP,sthwp_e2_2,62.3,76.3,diferencia inferencia-entrenamiento = +14.0 pts
+STH-WP,sthwp_e2_2b,64.5,75.3,diferencia inferencia-entrenamiento = +10.8 pts
+SUB-WP,stage1,98.3,100.0,diferencia inferencia-entrenamiento = +1.7 pts
+SUB-WP,stage2,98.3,97.6,diferencia inferencia-entrenamiento = -0.7 pts
+SUB-WP,stage3_r2,89.3,95.2,diferencia inferencia-entrenamiento = +5.8 pts
+SUB-WP,stage4_r2,53.6,100.0,diferencia inferencia-entrenamiento = +46.4 pts
+SUB-WP,stage5_r2,94.4,50.0,diferencia inferencia-entrenamiento = -44.4 pts
+SUB-WP,e2_0,73.6,no disponible,sin dato de inferencia (solo entrenamiento disponible)
+SUB-WP,subwp_e2_1,74.3,82.4,diferencia inferencia-entrenamiento = +8.0 pts
+SUB-WP,subwp_e2_2,67.9,78.3,diferencia inferencia-entrenamiento = +10.4 pts
+SUB-WP,subwp_e2_2b,68.6,69.1,diferencia inferencia-entrenamiento = +0.4 pts

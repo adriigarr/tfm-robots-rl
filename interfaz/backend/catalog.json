@@ -1,0 +1,33 @@
+{
+  "map_id": "warehouse_map01",
+  "productos": [
+    { "sku": "P01", "nombre": "Tornillos M6x50", "categoria": "tornilleria", "icono": "🔩", "stock": 120, "goal_id": "goal_01", "ubicacion": "A-01-01", "desc": "Tornillo de acero cincado, rosca métrica M6, longitud 50 mm. Caja de 100 unidades." },
+    { "sku": "P02", "nombre": "Tornillos M8x40", "categoria": "tornilleria", "icono": "🔩", "stock": 80, "goal_id": "goal_02", "ubicacion": "A-01-02", "desc": "Tornillo de acero cincado, rosca métrica M8, longitud 40 mm. Caja de 100 unidades." },
+    { "sku": "P03", "nombre": "Tuercas M6", "categoria": "tornilleria", "icono": "🔩", "stock": 200, "goal_id": "goal_03", "ubicacion": "A-01-03", "desc": "Tuerca hexagonal DIN 934 para rosca M6. Bolsa de 200 unidades." },
+    { "sku": "P04", "nombre": "Arandelas M8", "categoria": "tornilleria", "icono": "🔩", "stock": 150, "goal_id": "goal_04", "ubicacion": "A-02-01", "desc": "Arandela plana de acero cincado para tornillería M8. Bolsa de 250 unidades." },
+    { "sku": "P05", "nombre": "Martillo", "categoria": "herramientas", "icono": "🔨", "stock": 15, "goal_id": "goal_05", "ubicacion": "B-01-01", "desc": "Martillo de carpintero de 500 g con mango de fibra de vidrio." },
+    { "sku": "P06", "nombre": "Destornillador plano", "categoria": "herramientas", "icono": "🪛", "stock": 22, "goal_id": "goal_06", "ubicacion": "B-01-02", "desc": "Punta plana de 6 mm, mango aislado hasta 1000 V." },
+    { "sku": "P07", "nombre": "Destornillador estrella", "categoria": "herramientas", "icono": "🪛", "stock": 18, "goal_id": "goal_07", "ubicacion": "B-01-03", "desc": "Punta Phillips PH2, mango aislado hasta 1000 V." },
+    { "sku": "P08", "nombre": "Llave inglesa", "categoria": "herramientas", "icono": "🔧", "stock": 10, "goal_id": "goal_08", "ubicacion": "B-02-01", "desc": "Llave ajustable de 250 mm, apertura máxima 30 mm." },
+    { "sku": "P09", "nombre": "Alicates", "categoria": "herramientas", "icono": "🔧", "stock": 12, "goal_id": "goal_09", "ubicacion": "B-02-02", "desc": "Alicate universal de 180 mm con corte lateral y mango aislado." },
+    { "sku": "P10", "nombre": "Cinta métrica", "categoria": "herramientas", "icono": "📏", "stock": 30, "goal_id": "goal_10", "ubicacion": "B-02-03", "desc": "Cinta de 5 m con freno automático y clip de cinturón." },
+    { "sku": "P11", "nombre": "Taladro eléctrico", "categoria": "herramientas", "icono": "🛠️", "stock": 6, "goal_id": "goal_11", "ubicacion": "B-03-01", "desc": "Taladro percutor de 750 W, portabrocas de 13 mm. Maletín incluido." },
+    { "sku": "P12", "nombre": "Sierra manual", "categoria": "herramientas", "icono": "🪚", "stock": 9, "goal_id": "goal_12", "ubicacion": "B-03-02", "desc": "Serrucho de 450 mm, 7 dientes por pulgada, para madera." },
+    { "sku": "P13", "nombre": "Cinta aislante", "categoria": "embalaje", "icono": "🧵", "stock": 60, "goal_id": "goal_13", "ubicacion": "C-01-01", "desc": "Cinta de PVC 19 mm x 20 m, aislamiento hasta 600 V." },
+    { "sku": "P14", "nombre": "Cinta de embalar", "categoria": "embalaje", "icono": "📦", "stock": 90, "goal_id": "goal_14", "ubicacion": "C-01-02", "desc": "Cinta acrílica transparente 50 mm x 66 m. Caja de 6 rollos." },
+    { "sku": "P15", "nombre": "Caja de cartón M", "categoria": "embalaje", "icono": "📦", "stock": 0, "goal_id": "goal_15", "ubicacion": "C-01-03", "desc": "Caja de canal doble 400 x 300 x 300 mm. Paquete de 20 unidades." },
+    { "sku": "P16", "nombre": "Caja de cartón L", "categoria": "embalaje", "icono": "📦", "stock": 40, "goal_id": "goal_16", "ubicacion": "C-02-01", "desc": "Caja de canal doble 600 x 400 x 400 mm. Paquete de 15 unidades." },
+    { "sku": "P17", "nombre": "Plástico de burbujas", "categoria": "embalaje", "icono": "🫧", "stock": 25, "goal_id": "goal_17", "ubicacion": "C-02-02", "desc": "Rollo de 500 mm x 100 m, burbuja de 10 mm." },
+    { "sku": "P18", "nombre": "Precinto adhesivo", "categoria": "embalaje", "icono": "📦", "stock": 70, "goal_id": "goal_18", "ubicacion": "C-02-03", "desc": "Precinto de seguridad con testigo de apertura, 48 mm x 50 m." },
+    { "sku": "P19", "nombre": "Guantes de trabajo", "categoria": "epi", "icono": "🧤", "stock": 45, "goal_id": "goal_19", "ubicacion": "D-01-01", "desc": "Guante de nitrilo sobre soporte de nailon, talla 9. Norma EN 388." },
+    { "sku": "P20", "nombre": "Gafas de protección", "categoria": "epi", "icono": "🥽", "stock": 0, "goal_id": "goal_20", "ubicacion": "D-01-02", "desc": "Gafa envolvente de policarbonato antivaho. Norma EN 166." },
+    { "sku": "P21", "nombre": "Casco de seguridad", "categoria": "epi", "icono": "⛑️", "stock": 20, "goal_id": "goal_21", "ubicacion": "D-01-03", "desc": "Casco de ABS con arnés de 6 puntos y barboquejo. Norma EN 397." },
+    { "sku": "P22", "nombre": "Chaleco reflectante", "categoria": "epi", "icono": "🦺", "stock": 35, "goal_id": "goal_22", "ubicacion": "D-02-01", "desc": "Chaleco de alta visibilidad clase 2, talla única. Norma EN ISO 20471." },
+    { "sku": "P23", "nombre": "Mascarilla FFP2", "categoria": "epi", "icono": "😷", "stock": 100, "goal_id": "goal_23", "ubicacion": "D-02-02", "desc": "Mascarilla filtrante FFP2 sin válvula. Caja de 20 unidades." },
+    { "sku": "P24", "nombre": "Botas de seguridad", "categoria": "epi", "icono": "🥾", "stock": 14, "goal_id": "goal_24", "ubicacion": "D-02-03", "desc": "Bota S3 con puntera de acero y plantilla antiperforación, talla 42." },
+    { "sku": "P25", "nombre": "Cable eléctrico 10m", "categoria": "electricidad", "icono": "🔌", "stock": 28, "goal_id": "goal_25", "ubicacion": "E-01-01", "desc": "Manguera H07RN-F de 3 x 1,5 mm², longitud 10 m." },
+    { "sku": "P26", "nombre": "Regletas eléctricas", "categoria": "electricidad", "icono": "🔌", "stock": 33, "goal_id": "goal_26", "ubicacion": "E-01-02", "desc": "Base múltiple de 6 tomas con interruptor y protección de sobretensión." },
+    { "sku": "P27", "nombre": "Linterna LED", "categoria": "electricidad", "icono": "🔦", "stock": 19, "goal_id": "goal_27", "ubicacion": "E-01-03", "desc": "Linterna de 350 lm, cuerpo de aluminio, resistencia IP54." },
+    { "sku": "P28", "nombre": "Pilas AA (pack 4)", "categoria": "electricidad", "icono": "🔋", "stock": 55, "goal_id": "goal_28", "ubicacion": "E-02-01", "desc": "Pila alcalina LR6 de 1,5 V. Blíster de 4 unidades." }
+  ]
+}

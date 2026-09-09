@@ -1,0 +1,19 @@
+arquitectura,fase,n_semillas,exito_min_%,exito_max_%,dispersión_puntos,desviacion_std_%
+STH-WP,stage1,3,94.93,97.97,3.04,1.67
+STH-WP,stage2,3,96.3,99.12,2.82,1.41
+STH-WP,stage3v2,0,no comparable,no comparable,no comparable,no comparable
+STH-WP,stage4v2,0,no comparable,no comparable,no comparable,no comparable
+STH-WP,stage5,3,89.98,100.0,10.02,5.7
+STH-WP,stage6,3,92.27,100.0,7.73,4.18
+STH-WP,sthwp_e2_1,3,58.91,78.95,20.04,11.43
+STH-WP,sthwp_e2_2,3,53.2,67.13,13.93,7.85
+STH-WP,sthwp_e2_2b,3,60.44,67.25,6.81,3.57
+SUB-WP,stage1,3,96.65,99.33,2.68,1.43
+SUB-WP,stage2,3,97.64,98.67,1.03,0.58
+SUB-WP,stage3_r2,3,86.74,90.81,4.07,2.26
+SUB-WP,stage4_r2,3,49.62,56.94,7.32,3.72
+SUB-WP,stage5_r2,3,87.51,99.84,12.33,6.3
+SUB-WP,e2_0,3,67.31,80.28,12.97,6.49
+SUB-WP,subwp_e2_1,3,73.64,74.84,1.2,0.61
+SUB-WP,subwp_e2_2,3,63.52,71.35,7.83,4.01
+SUB-WP,subwp_e2_2b,3,66.68,70.01,3.33,1.75

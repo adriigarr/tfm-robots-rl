@@ -1,0 +1,69 @@
+{
+  "map": {
+    "width": 92,
+    "height": 88,
+    "resolution": 0.25,
+    "origin": [-13.0, -10.0]
+  },
+
+  "zones": {
+    "waiting": { "x": -6.6, "y": -8.5 },
+    "dropoff":  { "x": -11.0, "y": 0.0 }
+  },
+
+  "shelves": [
+    { "id": "SHELF_1_1", "goal_id": "goal_01", "shelf_x": -1.7,  "shelf_y": -9.3, "goal_x": -1.75, "goal_y": -8.3 },
+    { "id": "SHELF_1_2", "goal_id": "goal_02", "shelf_x":  0.2,  "shelf_y": -9.3, "goal_x":  0.25, "goal_y": -8.3 },
+    { "id": "SHELF_1_3", "goal_id": "goal_03", "shelf_x":  2.1,  "shelf_y": -9.3, "goal_x":  2.0,  "goal_y": -8.3 },
+    { "id": "SHELF_1_4", "goal_id": "goal_04", "shelf_x":  4.0,  "shelf_y": -9.3, "goal_x":  4.0,  "goal_y": -8.3 },
+
+    { "id": "SHELF_2_1", "goal_id": "goal_05", "shelf_x": -6.9,  "shelf_y": -3.2, "goal_x": -6.85, "goal_y": -4.25 },
+    { "id": "SHELF_2_2", "goal_id": "goal_06", "shelf_x": -5.0,  "shelf_y": -3.2, "goal_x": -5.0,  "goal_y": -4.25 },
+    { "id": "SHELF_2_3", "goal_id": "goal_07", "shelf_x": -3.1,  "shelf_y": -3.2, "goal_x": -3.2,  "goal_y": -4.25 },
+    { "id": "SHELF_2_4", "goal_id": "goal_08", "shelf_x": -6.9,  "shelf_y": -2.4, "goal_x": -6.85, "goal_y": -1.25 },
+    { "id": "SHELF_2_5", "goal_id": "goal_09", "shelf_x": -5.0,  "shelf_y": -2.4, "goal_x": -5.0,  "goal_y": -1.25 },
+    { "id": "SHELF_2_6", "goal_id": "goal_10", "shelf_x": -3.1,  "shelf_y": -2.4, "goal_x": -3.2,  "goal_y": -1.25 },
+
+    { "id": "SHELF_3_1", "goal_id": "goal_11", "shelf_x":  8.9,  "shelf_y": -3.2, "goal_x":  8.85, "goal_y": -4.25 },
+    { "id": "SHELF_3_2", "goal_id": "goal_12", "shelf_x":  7.0,  "shelf_y": -3.2, "goal_x":  7.0,  "goal_y": -4.25 },
+    { "id": "SHELF_3_3", "goal_id": "goal_13", "shelf_x":  5.1,  "shelf_y": -3.2, "goal_x":  5.2,  "goal_y": -4.25 },
+    { "id": "SHELF_3_4", "goal_id": "goal_14", "shelf_x":  8.9,  "shelf_y": -2.4, "goal_x":  8.85, "goal_y": -1.25 },
+    { "id": "SHELF_3_5", "goal_id": "goal_15", "shelf_x":  7.0,  "shelf_y": -2.4, "goal_x":  7.0,  "goal_y": -1.25 },
+    { "id": "SHELF_3_6", "goal_id": "goal_16", "shelf_x":  5.1,  "shelf_y": -2.4, "goal_x":  5.2,  "goal_y": -1.25 },
+
+    { "id": "SHELF_4_1", "goal_id": "goal_17", "shelf_x": -6.9,  "shelf_y":  3.0, "goal_x": -6.85, "goal_y":  1.75 },
+    { "id": "SHELF_4_2", "goal_id": "goal_18", "shelf_x": -5.0,  "shelf_y":  3.0, "goal_x": -5.0,  "goal_y":  1.75 },
+    { "id": "SHELF_4_3", "goal_id": "goal_19", "shelf_x": -3.1,  "shelf_y":  3.0, "goal_x": -3.2,  "goal_y":  1.75 },
+    { "id": "SHELF_4_4", "goal_id": "goal_20", "shelf_x": -6.9,  "shelf_y":  3.8, "goal_x": -6.85, "goal_y":  4.95 },
+    { "id": "SHELF_4_5", "goal_id": "goal_21", "shelf_x": -5.0,  "shelf_y":  3.8, "goal_x": -5.0,  "goal_y":  4.95 },
+    { "id": "SHELF_4_6", "goal_id": "goal_22", "shelf_x": -3.1,  "shelf_y":  3.8, "goal_x": -3.2,  "goal_y":  4.95 },
+
+    { "id": "SHELF_5_1", "goal_id": "goal_23", "shelf_x":  8.9,  "shelf_y":  3.0, "goal_x":  8.85, "goal_y":  1.75 },
+    { "id": "SHELF_5_2", "goal_id": "goal_24", "shelf_x":  7.0,  "shelf_y":  3.0, "goal_x":  7.0,  "goal_y":  1.75 },
+    { "id": "SHELF_5_3", "goal_id": "goal_25", "shelf_x":  5.1,  "shelf_y":  3.0, "goal_x":  5.2,  "goal_y":  1.75 },
+    { "id": "SHELF_5_4", "goal_id": "goal_26", "shelf_x":  8.9,  "shelf_y":  3.8, "goal_x":  8.85, "goal_y":  4.95 },
+    { "id": "SHELF_5_5", "goal_id": "goal_27", "shelf_x":  7.0,  "shelf_y":  3.8, "goal_x":  7.0,  "goal_y":  4.95 },
+    { "id": "SHELF_5_6", "goal_id": "goal_28", "shelf_x":  5.1,  "shelf_y":  3.8, "goal_x":  5.2,  "goal_y":  4.95 }
+  ],
+
+  "return_corridor": {
+    "waypoints": [
+      { "id": "WP1", "x": -3.0,  "y": 10.5 },
+      { "id": "WP2", "x": -8.0,  "y": 10.5 },
+      { "id": "WP3", "x": -10.5, "y":  8.0 },
+      { "id": "WP4", "x": -10.5, "y":  3.0 },
+      { "id": "WP5", "x": -10.5, "y": -2.0 },
+      { "id": "WP6", "x": -10.5, "y": -7.0 },
+      { "id": "WP7", "x": -6.6,  "y": -8.5 }
+    ]
+  },
+
+  "walls": [
+    {"id": "wall1", "x": -8.0,  "y":  1.0,   "w":  0.2, "h": 16.0},
+    {"id": "wall2", "x": 10.0,  "y":  1.0,   "w":  0.2, "h": 22.0},
+    {"id": "wall5", "x": -13.0, "y":  1.0,   "w":  0.2, "h": 22.0},
+    {"id": "wall3", "x": -1.5,  "y": 12.0,   "w": 23.0, "h":  0.2},
+    {"id": "wall4", "x": -1.5,  "y": -10.0,  "w": 23.0, "h":  0.2},
+    {"id": "wall6", "x": -4.6,  "y":  9.0,   "w":  7.0, "h":  0.2}
+  ]
+}

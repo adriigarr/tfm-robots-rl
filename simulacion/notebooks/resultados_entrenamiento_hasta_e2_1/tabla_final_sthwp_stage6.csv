@@ -1,0 +1,4 @@
+arquitectura,fase,semilla,intentos_totales,exitos_totales,colisiones_totales,tasa_exito_%,tasa_colision_%
+STH-WP,stage6,42,439,439,0,100.0,0.0
+STH-WP,stage6,123,451,446,5,98.89,1.11
+STH-WP,stage6,524,466,430,36,92.27,7.73
